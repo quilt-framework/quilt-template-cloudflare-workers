@@ -1,0 +1,16 @@
+name = "quilt-template-cloudflare-workers"
+type = "javascript"
+account_id = "9bfdb755def60e50760e33036c6f1624"
+workers_dev = true
+
+[build]
+command = "yarn install && yarn build"
+
+[build.upload]
+format = "modules"
+dir = "./build/app/server"
+main = "./index.mjs"
+
+[site]
+bucket = "./build/app/assets"
+entry-point = "./build/app/server/index.mjs"
