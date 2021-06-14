@@ -11,11 +11,11 @@
     "build": "sewing-kit build"
   },
   "dependencies": {
-    "@quilted/quilt": "^0.5.15"
+    "@quilted/quilt": "^0.5.16"
   },
   "devDependencies": {
     "@quilted/cloudflare": "^0.1.0",
-    "@quilted/craft": "^0.1.10",
+    "@quilted/craft": "^0.1.12",
     "typescript": "4.1.x"
   },
   "workspaces": {
