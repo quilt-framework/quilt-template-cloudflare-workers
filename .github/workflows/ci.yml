@@ -153,5 +153,5 @@ jobs:
       - name: Yarn install
         run: yarn install --immutable
 
-      - name: Build everything, including examples
+      - name: Run a test build
         run: yarn build

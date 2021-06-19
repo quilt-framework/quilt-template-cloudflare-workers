@@ -2183,9 +2183,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/cloudflare@npm:^0.1.0":
-  version: 0.1.1
-  resolution: "@quilted/cloudflare@npm:0.1.1"
+"@quilted/cloudflare@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@quilted/cloudflare@npm:0.1.2"
   dependencies:
     "@quilted/http-handlers": ^0.2.6
     mime: ^2.5.0
@@ -2203,11 +2203,11 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: d7c1882043ac7799ca4b465ab0d4058f09b728ee7a1522451f90d5b88f8706bd30d48e148fc5989c3634eb5de1ce53fb18fbace1166b5c0bf0b06de13e065923
+  checksum: efdcf48d9c590629097d8c15ed3b33558d12e3c9f7c096abe4f7b669a8acbfee5c49ff4939aa718575837ffb14871bdc35309307926f9d20867ffc3479035ee3
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.0":
+"@quilted/craft@npm:^0.1.12":
   version: 0.1.12
   resolution: "@quilted/craft@npm:0.1.12"
   dependencies:
@@ -2379,7 +2379,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/quilt@npm:^0.5.0":
+"@quilted/quilt@npm:^0.5.17":
   version: 0.5.17
   resolution: "@quilted/quilt@npm:0.5.17"
   dependencies:
@@ -7624,9 +7624,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
-    "@quilted/cloudflare": ^0.1.0
-    "@quilted/craft": ^0.1.0
-    "@quilted/quilt": ^0.5.0
+    "@quilted/cloudflare": ^0.1.2
+    "@quilted/craft": ^0.1.12
+    "@quilted/quilt": ^0.5.17
+    "@quilted/sewing-kit": ^0.2.6
     typescript: 4.1.x
   languageName: unknown
   linkType: soft
