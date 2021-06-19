@@ -13,4 +13,4 @@ main = "./index.mjs"
 
 [site]
 bucket = "./build/app/assets"
-entry-point = "./build/app/server/index.mjs"
+entry-point = "."
