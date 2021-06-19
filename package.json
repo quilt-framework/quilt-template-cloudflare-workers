@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "quilt-template-cloudflare-workers",
   "type": "module",
   "version": "0.0.0",
   "private": true,
@@ -11,22 +11,43 @@
     "build": "sewing-kit build"
   },
   "dependencies": {
-    "@quilted/quilt": "^0.5.16"
+    "@quilted/quilt": "^0.5.17"
   },
   "devDependencies": {
-    "@quilted/cloudflare": "^0.1.0",
-    "@quilted/craft": "^0.1.12",
+    "@quilted/cloudflare": "^0.1.2",
+    "@quilted/craft": "^0.1.13",
+    "@quilted/sewing-kit": "^0.2.6",
     "typescript": "4.1.x"
-  },
-  "workspaces": {
-    "packages": [
-      "app",
-      "server",
-      "packages/*"
-    ]
   },
   "prettier": "@quilted/prettier",
   "eslintConfig": {
-    "extends": "@quilted/eslint-config/workspace"
+    "extends": "@quilted/eslint-config/workspace",
+    "overrides": [
+      {
+        "files": "./app/**/*",
+        "extends": "@quilted/eslint-config/app"
+      }
+    ]
+  },
+  "browserslist": {
+    "default": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 opera versions",
+      "last 2 edge versions",
+      "safari >= 11",
+      "ios >= 11"
+    ],
+    "evergreen": [
+      "last 1 chrome versions",
+      "last 1 firefox versions",
+      "last 1 opera versions",
+      "last 1 edge versions",
+      "safari >= 13",
+      "ios >= 13"
+    ],
+    "latest-chrome": [
+      "last 1 chrome versions"
+    ]
   }
 }

@@ -4,5 +4,5 @@
   "compilerOptions": {
     "outDir": "build/typescript/workspace"
   },
-  "references": [{"path": "./app"}]
+  "references": [{"path": "./tsconfig.app.json"}]
 }

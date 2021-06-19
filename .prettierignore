@@ -1,4 +1,5 @@
 .yarn
 .yarnrc.yml
+.sewing-kit
 node_modules
 build
