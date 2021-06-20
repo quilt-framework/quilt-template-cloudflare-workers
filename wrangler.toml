@@ -8,9 +8,9 @@ command = "yarn install && yarn build"
 
 [build.upload]
 format = "modules"
-dir = "./build/app/server"
+dir = "./build/server"
 main = "./index.mjs"
 
 [site]
-bucket = "./build/app/assets"
+bucket = "./build/assets"
 entry-point = "."
