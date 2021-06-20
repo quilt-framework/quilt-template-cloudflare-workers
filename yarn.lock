@@ -2183,9 +2183,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/cloudflare@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@quilted/cloudflare@npm:0.1.2"
+"@quilted/cloudflare@npm:^0.1.3":
+  version: 0.1.3
+  resolution: "@quilted/cloudflare@npm:0.1.3"
   dependencies:
     "@quilted/http-handlers": ^0.2.6
     mime: ^2.5.0
@@ -2203,7 +2203,7 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: efdcf48d9c590629097d8c15ed3b33558d12e3c9f7c096abe4f7b669a8acbfee5c49ff4939aa718575837ffb14871bdc35309307926f9d20867ffc3479035ee3
+  checksum: 3f77c206643370771445a61ac0add0b553fa52dec57429bc1390665eb5a811a5219954cdb931dbc9bb5837e65101bb8056d1a05e2d3bf993298978b482b0749f
   languageName: node
   linkType: hard
 
@@ -7624,7 +7624,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
-    "@quilted/cloudflare": ^0.1.2
+    "@quilted/cloudflare": ^0.1.3
     "@quilted/craft": ^0.1.13
     "@quilted/quilt": ^0.5.17
     "@quilted/sewing-kit": ^0.2.6
