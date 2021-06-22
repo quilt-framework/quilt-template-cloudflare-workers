@@ -32,7 +32,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/code-frame@npm:^7.14.5":
+"@babel/code-frame@npm:^7.10.4, @babel/code-frame@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/code-frame@npm:7.14.5"
   dependencies:
@@ -2207,14 +2207,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.16":
-  version: 0.1.16
-  resolution: "@quilted/craft@npm:0.1.16"
+"@quilted/craft@npm:^0.1.17":
+  version: 0.1.17
+  resolution: "@quilted/craft@npm:0.1.17"
   dependencies:
     "@prefresh/vite": ^2.2.0
     "@quilted/eslint-config": ^0.1.3
     "@quilted/prettier": ^0.2.2
-    "@quilted/sewing-kit": ^0.2.6
+    "@quilted/sewing-kit": ^0.2.7
     "@quilted/sewing-kit-babel": ^0.1.2
     "@quilted/sewing-kit-eslint": ^0.1.2
     "@quilted/sewing-kit-esnext": ^0.1.7
@@ -2234,6 +2234,7 @@ __metadata:
     postcss: ^8.0.0
     postcss-modules: ^4.0.0
     rollup: ^2.0.0
+    rollup-plugin-terser: ^7.0.0
     vite: ^2.0.0
   peerDependencies:
     "@quilted/async": ^0.3.2
@@ -2249,7 +2250,7 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: 45fa2f4e81cbcfdde2e6556b9f2fef78d4a255206a8e3270643bee1c1f65d3d8437965a8fa303a6d14403062602799277b1ed39d0e5ec67f8a54110d20a11311
+  checksum: a66fc16e23755ed106fc813bdef78c11e12dbd6d41b04d99ec7a6e1bf689e8f8e9293014550d756fd42ab1ed42eaf3e0039bd59419a5ffff83cc77d6f5eb0333
   languageName: node
   linkType: hard
 
@@ -2817,9 +2818,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "@quilted/sewing-kit@npm:0.2.6"
+"@quilted/sewing-kit@npm:^0.2.7":
+  version: 0.2.7
+  resolution: "@quilted/sewing-kit@npm:0.2.7"
   dependencies:
     "@rollup/plugin-commonjs": ^19.0.0
     "@rollup/plugin-json": ^4.1.0
@@ -2834,7 +2835,7 @@ __metadata:
   bin:
     sewing-kit: bin/sewing-kit.mjs
     sk: bin/sk.mjs
-  checksum: 6fbf691e827381aaa3436e88c3fb76ebbdcc3300fb8efe3528a376b1f22c8cabed0b0e14ace574b27b51dc7236b9a4187b449476b173cd22997543fe950c7e35
+  checksum: e9ae5e7d21f7280f84f0b0f5d7d6d566a1a22a39789c6a114c5482612f6b8d7473695ea4972f8aeb78f4647096d87419fccb5e0fa4ddfc4f3ede6fd993cbd20c
   languageName: node
   linkType: hard
 
@@ -4184,6 +4185,13 @@ __metadata:
   dependencies:
     delayed-stream: ~1.0.0
   checksum: 5791ce7944530f0db74a97e77ea28b6fdbf89afcf038e41d6b4195019c4c803cd19ed2905a54959e5b3830d50bd5d6f93c681c6d3aaea8614ad43b48e62e9d65
+  languageName: node
+  linkType: hard
+
+"commander@npm:^2.20.0":
+  version: 2.20.3
+  resolution: "commander@npm:2.20.3"
+  checksum: b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
   languageName: node
   linkType: hard
 
@@ -6396,6 +6404,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-worker@npm:^26.2.1":
+  version: 26.6.2
+  resolution: "jest-worker@npm:26.6.2"
+  dependencies:
+    "@types/node": "*"
+    merge-stream: ^2.0.0
+    supports-color: ^7.0.0
+  checksum: 5eb349833b5e9750ce8700388961dfd5d5e207c913122221e418e48b9cda3c17b0fb418f6a90f1614cfdc3ca836158b720c5dc1de82cb1e708266b4d76e31a38
+  languageName: node
+  linkType: hard
+
 "jest-worker@npm:^27.0.2":
   version: 27.0.2
   resolution: "jest-worker@npm:27.0.2"
@@ -7625,12 +7644,21 @@ __metadata:
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
     "@quilted/cloudflare": ^0.1.3
-    "@quilted/craft": ^0.1.16
+    "@quilted/craft": ^0.1.17
     "@quilted/quilt": ^0.5.17
-    "@quilted/sewing-kit": ^0.2.6
+    "@quilted/sewing-kit": ^0.2.7
     typescript: 4.3.x
   languageName: unknown
   linkType: soft
+
+"randombytes@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "randombytes@npm:2.1.0"
+  dependencies:
+    safe-buffer: ^5.1.0
+  checksum: ede2693af09732ceab1c273dd70db787f34a7b8d95bab13f1aca763483c0113452a78e53d61ff18d393dcea586d388e01f198a5132a4a85cebba31ec54164b75
+  languageName: node
+  linkType: hard
 
 "react-is@npm:^16.12.0 || ^17.0.0, react-is@npm:^17.0.1, react-is@npm:^17.0.2":
   version: 17.0.2
@@ -7924,6 +7952,20 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"rollup-plugin-terser@npm:^7.0.0":
+  version: 7.0.2
+  resolution: "rollup-plugin-terser@npm:7.0.2"
+  dependencies:
+    "@babel/code-frame": ^7.10.4
+    jest-worker: ^26.2.1
+    serialize-javascript: ^4.0.0
+    terser: ^5.0.0
+  peerDependencies:
+    rollup: ^2.0.0
+  checksum: 553cc21efcea3e4d46c61fbd41cb4a82a3ab8e02ae4ce7c03f9248dea93e5a91c3624e2271490ee05b2bb481568305733b496d968d3ac9c99b777a588a336f01
+  languageName: node
+  linkType: hard
+
 "rollup@npm:^2.0.0":
   version: 2.51.0
   resolution: "rollup@npm:2.51.0"
@@ -7958,6 +8000,13 @@ resolve@^2.0.0-next.3:
   dependencies:
     queue-microtask: ^1.2.2
   checksum: 3d12f0251ad043ed52689523b1e5fa5b7e5395a6ae0d2cbfb880a3009bb297de6d7e96ba4ad5a818e2722b42cea78a5ee6842d6d864736a7ca755ec119ed097c
+  languageName: node
+  linkType: hard
+
+"safe-buffer@npm:^5.1.0":
+  version: 5.2.1
+  resolution: "safe-buffer@npm:5.2.1"
+  checksum: 0bb57f0d8f9d1fa4fe35ad8a2db1f83a027d48f2822d59ede88fd5cd4ddad83c0b497213feb7a70fbf90597a70c5217f735b0eb1850df40ce9b4ae81dd22b3f9
   languageName: node
   linkType: hard
 
@@ -8020,6 +8069,15 @@ resolve@^2.0.0-next.3:
   bin:
     semver: bin/semver.js
   checksum: c53624ddf4b9779bcbf55a1eb8b37074cc44bfeca416f3cc263429408202a8a3c59b00eef8c647d697303bc39b95c022a5c61959221d3814bfb1270ff7c14986
+  languageName: node
+  linkType: hard
+
+"serialize-javascript@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "serialize-javascript@npm:4.0.0"
+  dependencies:
+    randombytes: ^2.1.0
+  checksum: f17305aaabab9ae443505d1bf477c13b09adb7031c397d18400bec16f43f788febdd3311ca6043fdebd1d446cfa70a5804ef7268da54351dec51080f56d52fa9
   languageName: node
   linkType: hard
 
@@ -8124,7 +8182,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"source-map-support@npm:^0.5.17, source-map-support@npm:^0.5.6":
+"source-map-support@npm:^0.5.17, source-map-support@npm:^0.5.6, source-map-support@npm:~0.5.19":
   version: 0.5.19
   resolution: "source-map-support@npm:0.5.19"
   dependencies:
@@ -8148,7 +8206,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"source-map@npm:^0.7.3":
+"source-map@npm:^0.7.3, source-map@npm:~0.7.2":
   version: 0.7.3
   resolution: "source-map@npm:0.7.3"
   checksum: 351ce26ffa1ebf203660c0d70d7566c81e65d2d994d1c2d94da140808e02da34961673ce12ecea9b40797b96fbeb8c70bf71a4ad9f779f1a4fdbba75530bb386
@@ -8447,6 +8505,19 @@ resolve@^2.0.0-next.3:
     ansi-escapes: ^4.2.1
     supports-hyperlinks: ^2.0.0
   checksum: f84553e11e9dc9034c9a62aeada2985e2c50adf161b773b3e4a5cf174b0d14f6b8868eb1dcdf91c3f71e3d932a3be158b8742c2a43ee459e9b88a246d78a6dc1
+  languageName: node
+  linkType: hard
+
+"terser@npm:^5.0.0":
+  version: 5.7.0
+  resolution: "terser@npm:5.7.0"
+  dependencies:
+    commander: ^2.20.0
+    source-map: ~0.7.2
+    source-map-support: ~0.5.19
+  bin:
+    terser: bin/terser
+  checksum: 9604fed5b093ee8000282cc69b07ff7a4e651aa13cb6e34055bf77592a4e1d0fed80c19ee80fe3a4e92f5485badcafb5aeed414fe8b5b7185599707236111900
   languageName: node
   linkType: hard
 
