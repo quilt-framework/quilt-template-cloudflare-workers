@@ -11,12 +11,12 @@
     "build": "sewing-kit build"
   },
   "dependencies": {
-    "@quilted/quilt": "^0.5.17"
+    "@quilted/quilt": "^0.5.19"
   },
   "devDependencies": {
     "@quilted/cloudflare": "^0.1.3",
-    "@quilted/craft": "^0.1.17",
-    "@quilted/sewing-kit": "^0.2.7",
+    "@quilted/craft": "^0.1.20",
+    "@quilted/sewing-kit": "^0.2.8",
     "typescript": "4.3.x"
   },
   "prettier": "@quilted/prettier",
@@ -27,27 +27,6 @@
         "files": "./app/**/*",
         "extends": "@quilted/eslint-config/app"
       }
-    ]
-  },
-  "browserslist": {
-    "default": [
-      "last 2 chrome versions",
-      "last 2 firefox versions",
-      "last 2 opera versions",
-      "last 2 edge versions",
-      "safari >= 11",
-      "ios >= 11"
-    ],
-    "evergreen": [
-      "last 1 chrome versions",
-      "last 1 firefox versions",
-      "last 1 opera versions",
-      "last 1 edge versions",
-      "safari >= 13",
-      "ios >= 13"
-    ],
-    "latest-chrome": [
-      "last 1 chrome versions"
     ]
   }
 }
