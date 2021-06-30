@@ -101,6 +101,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/core@npm:7.14.6, @babel/core@npm:>=7.0.0 <8.0.0":
+  version: 7.14.6
+  resolution: "@babel/core@npm:7.14.6"
+  dependencies:
+    "@babel/code-frame": ^7.14.5
+    "@babel/generator": ^7.14.5
+    "@babel/helper-compilation-targets": ^7.14.5
+    "@babel/helper-module-transforms": ^7.14.5
+    "@babel/helpers": ^7.14.6
+    "@babel/parser": ^7.14.6
+    "@babel/template": ^7.14.5
+    "@babel/traverse": ^7.14.5
+    "@babel/types": ^7.14.5
+    convert-source-map: ^1.7.0
+    debug: ^4.1.0
+    gensync: ^1.0.0-beta.2
+    json5: ^2.1.2
+    semver: ^6.3.0
+    source-map: ^0.5.0
+  checksum: 239c4892d54f1d6e3a9a3972a7579138da6ff5308b9c08e4c80c9cd09282b6a921f58338851675fdb80b1cf9dd14f4176674917b97aa430bf1d50c0052bbb13a
+  languageName: node
+  linkType: hard
+
 "@babel/generator@npm:>=7.0.0, @babel/generator@npm:^7.14.2, @babel/generator@npm:^7.14.3, @babel/generator@npm:^7.7.2":
   version: 7.14.3
   resolution: "@babel/generator@npm:7.14.3"
@@ -377,6 +400,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helper-plugin-utils@npm:^7.14.5":
+  version: 7.14.5
+  resolution: "@babel/helper-plugin-utils@npm:7.14.5"
+  checksum: 76404ef3aadc25879f7b4c5945bafcca935d4af0cf451a95ff9f131f29ac3dc589e2ed19904ce746c7cf6c2a8a7ea33fa4eaf881b9b272d31f2be91984f505d6
+  languageName: node
+  linkType: hard
+
 "@babel/helper-remap-async-to-generator@npm:^7.13.0":
   version: 7.13.0
   resolution: "@babel/helper-remap-async-to-generator@npm:7.13.0"
@@ -519,6 +549,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/helpers@npm:^7.14.6":
+  version: 7.14.6
+  resolution: "@babel/helpers@npm:7.14.6"
+  dependencies:
+    "@babel/template": ^7.14.5
+    "@babel/traverse": ^7.14.5
+    "@babel/types": ^7.14.5
+  checksum: c5c3bd0f9618cdb8895d89171fe0b89c0b119bf8c9f96aff869d95b9208628172a882a132f8f76a218e0e68d8c3316f65b60af9b3a3a778d9b9adce004ca52c7
+  languageName: node
+  linkType: hard
+
 "@babel/highlight@npm:^7.10.4, @babel/highlight@npm:^7.12.13":
   version: 7.14.0
   resolution: "@babel/highlight@npm:7.14.0"
@@ -556,6 +597,15 @@ __metadata:
   bin:
     parser: ./bin/babel-parser.js
   checksum: 55c14793888cb7d54275811e7f13136875df1ee4fc368f3f10cff46ebdf95b6a072e706a0486be0ac5686a597cbfb82f33b5f66aa6ba80ff50b73bca945035c6
+  languageName: node
+  linkType: hard
+
+"@babel/parser@npm:^7.14.6":
+  version: 7.14.7
+  resolution: "@babel/parser@npm:7.14.7"
+  bin:
+    parser: ./bin/babel-parser.js
+  checksum: 8c7c7fd9735d9de2a0531fe54338d76972aeb9a414902f5edfc317c421a2da6a8772d04dce5444c89065ae2719c48433153f9cbaa14754b1bf8d6154915095ff
   languageName: node
   linkType: hard
 
@@ -1304,6 +1354,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/plugin-transform-runtime@npm:>=7.0.0 <8.0.0":
+  version: 7.14.5
+  resolution: "@babel/plugin-transform-runtime@npm:7.14.5"
+  dependencies:
+    "@babel/helper-module-imports": ^7.14.5
+    "@babel/helper-plugin-utils": ^7.14.5
+    babel-plugin-polyfill-corejs2: ^0.2.2
+    babel-plugin-polyfill-corejs3: ^0.2.2
+    babel-plugin-polyfill-regenerator: ^0.2.2
+    semver: ^6.3.0
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 5d5683e0962459bec177415aaa6dd1f518252f0b923e5dad77847faccdb2e0d1b15984bc79141d44c9aa8441c1753cc3699858f87975d262132d35c4305f3be0
+  languageName: node
+  linkType: hard
+
 "@babel/plugin-transform-shorthand-properties@npm:^7.12.13":
   version: 7.12.13
   resolution: "@babel/plugin-transform-shorthand-properties@npm:7.12.13"
@@ -1530,6 +1596,15 @@ __metadata:
     core-js-pure: ^3.0.0
     regenerator-runtime: ^0.13.4
   checksum: 0b3184c384f061e90c879406a072643493d9a1c7fa33bcbccf72ab0588df12ad85fb3539a3b8355f4d96934836f420c0a70d9a0848c7954f6a5ec511bb5bb2ef
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:>=7.0.0 <8.0.0":
+  version: 7.14.6
+  resolution: "@babel/runtime@npm:7.14.6"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: dd931f6ef1c8dab295c4a00c592db6352bf12a5c443f8222304d5c1d3e88d795fa949afcb6f053eec2e69e9827a17ff274524c1cd43813f56b61e3a540274d2f
   languageName: node
   linkType: hard
 
@@ -1866,6 +1941,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/console@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/console@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    chalk: ^4.0.0
+    jest-message-util: ^27.0.6
+    jest-util: ^27.0.6
+    slash: ^3.0.0
+  checksum: abb7c6f7ea0491045bf59a446c8a451299c1832494eefe764601f5b4a96636eff822702c1d867f7dbf7b0577af1af6b60015aa68b007edd2a21fffdbcdc044c4
+  languageName: node
+  linkType: hard
+
 "@jest/core@npm:^27.0.4":
   version: 27.0.4
   resolution: "@jest/core@npm:27.0.4"
@@ -1920,6 +2009,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/environment@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/environment@npm:27.0.6"
+  dependencies:
+    "@jest/fake-timers": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    jest-mock: ^27.0.6
+  checksum: 37fcf1aeaf4ccd50b42bbbfff770a71813db89abf1194af690ba145f2879f53e2916195fc52ce7261ba7475f353e6468444fc9ae7e9913d442e167ea477222a8
+  languageName: node
+  linkType: hard
+
 "@jest/fake-timers@npm:^27.0.3":
   version: 27.0.3
   resolution: "@jest/fake-timers@npm:27.0.3"
@@ -1934,6 +2035,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/fake-timers@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/fake-timers@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    "@sinonjs/fake-timers": ^7.0.2
+    "@types/node": "*"
+    jest-message-util: ^27.0.6
+    jest-mock: ^27.0.6
+    jest-util: ^27.0.6
+  checksum: 9fa36172e64627f4722585f97bf8577b6324db337e13cdd1740349e78510f56b6134726660097e299b5f21c307a8be2efc017907fc098553e3060f189e25a7d8
+  languageName: node
+  linkType: hard
+
 "@jest/globals@npm:^27.0.3":
   version: 27.0.3
   resolution: "@jest/globals@npm:27.0.3"
@@ -1942,6 +2057,17 @@ __metadata:
     "@jest/types": ^27.0.2
     expect: ^27.0.2
   checksum: c7e473c19cec428d2dcad03ec63c52849c55c8617351e11deac303064cd9463882800a5b4044302769daa77394907d4bf2d580914396fa8af1e18da6ec66e09b
+  languageName: node
+  linkType: hard
+
+"@jest/globals@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/globals@npm:27.0.6"
+  dependencies:
+    "@jest/environment": ^27.0.6
+    "@jest/types": ^27.0.6
+    expect: ^27.0.6
+  checksum: f1658c2ca64b0ff9f53dd4703e786940a4567864347bc5599c69f9f9c6c8204a6a9a5f8bf5f277dbf98315ec26d439fd19e8826f48d480dd899b96c98f1338ff
   languageName: node
   linkType: hard
 
@@ -1993,6 +2119,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/source-map@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/source-map@npm:27.0.6"
+  dependencies:
+    callsites: ^3.0.0
+    graceful-fs: ^4.2.4
+    source-map: ^0.6.0
+  checksum: 8294299b258f6eefdbd47df9083c25526e2a63858489f6a125d5d53e9963687b286ce1a1beef4a997847e88bb5f2aebc66be1f54e63c80fef08e5e57f64e6537
+  languageName: node
+  linkType: hard
+
 "@jest/test-result@npm:^27.0.2":
   version: 27.0.2
   resolution: "@jest/test-result@npm:27.0.2"
@@ -2005,6 +2142,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/test-result@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/test-result@npm:27.0.6"
+  dependencies:
+    "@jest/console": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/istanbul-lib-coverage": ^2.0.0
+    collect-v8-coverage: ^1.0.0
+  checksum: be967817bc558e8f4b43389e2a2a9b7456c33f00d7bc906979e7da2b165c0b3311e3dcdc6ac6792366c75e46874c64d974f81b6ad68553ecdc51adb1732bf950
+  languageName: node
+  linkType: hard
+
 "@jest/test-sequencer@npm:^27.0.4":
   version: 27.0.4
   resolution: "@jest/test-sequencer@npm:27.0.4"
@@ -2014,6 +2163,18 @@ __metadata:
     jest-haste-map: ^27.0.2
     jest-runtime: ^27.0.4
   checksum: ff13677535ffde500c0ae74e67b009770b3e24efe5de9aab35fa2923a9181ee7db1a59bb34e9c68f355759b9c5535956781c16e2bd1033709cf94526aeb44d57
+  languageName: node
+  linkType: hard
+
+"@jest/test-sequencer@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/test-sequencer@npm:27.0.6"
+  dependencies:
+    "@jest/test-result": ^27.0.6
+    graceful-fs: ^4.2.4
+    jest-haste-map: ^27.0.6
+    jest-runtime: ^27.0.6
+  checksum: fb9adb58c7b4351cc851080b82772197739d9ea4dac4409567ed20f8c0749d6b1737ba2982ddb705150d51701e3b14cd8966e6a68309c862e57e92b211ad9506
   languageName: node
   linkType: hard
 
@@ -2040,6 +2201,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/transform@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/transform@npm:27.0.6"
+  dependencies:
+    "@babel/core": ^7.1.0
+    "@jest/types": ^27.0.6
+    babel-plugin-istanbul: ^6.0.0
+    chalk: ^4.0.0
+    convert-source-map: ^1.4.0
+    fast-json-stable-stringify: ^2.0.0
+    graceful-fs: ^4.2.4
+    jest-haste-map: ^27.0.6
+    jest-regex-util: ^27.0.6
+    jest-util: ^27.0.6
+    micromatch: ^4.0.4
+    pirates: ^4.0.1
+    slash: ^3.0.0
+    source-map: ^0.6.1
+    write-file-atomic: ^3.0.0
+  checksum: 5f766dc760b434b632555db671f95868f215dc5adc92bdbb56eb687e16e6d9d79798b454a0651f1f3c17d9468cdf35930f753e2f04a428609fa71329c7b28bd4
+  languageName: node
+  linkType: hard
+
 "@jest/types@npm:^26.6.2":
   version: 26.6.2
   resolution: "@jest/types@npm:26.6.2"
@@ -2063,6 +2247,19 @@ __metadata:
     "@types/yargs": ^16.0.0
     chalk: ^4.0.0
   checksum: 7c1ef76bcb799a9010e6f1d5485ebb49b4052dcbc98f17f2979cd028688bb96f7b0072822e0e252659ef989d82c6c0a5cdd750b97b27e11c041efc735a0f84f4
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "@jest/types@npm:27.0.6"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^16.0.0
+    chalk: ^4.0.0
+  checksum: 86c1d8707ffcf8fb3574fa6865e1768d771c83494df5bfdc81199cac81fdbe947c69a7c113d03b7bf21c926bbfefffcfe7253138d6e52bb61a1386e05aff2a6b
   languageName: node
   linkType: hard
 
@@ -2149,9 +2346,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/async@npm:^0.3.5":
-  version: 0.3.5
-  resolution: "@quilted/async@npm:0.3.5"
+"@quilted/async@npm:^0.3.9":
+  version: 0.3.9
+  resolution: "@quilted/async@npm:0.3.9"
   dependencies:
     common-tags: ^1.8.0
     es-module-lexer: ^0.4.0
@@ -2159,6 +2356,7 @@ __metadata:
   peerDependencies:
     "@babel/core": ">=7.0.0"
     "@babel/plugin-syntax-dynamic-import": ">=7.0.0"
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@babel/traverse": ">=7.0.0"
     "@babel/types": ">=7.0.0"
     "@quilted/sewing-kit": ^0.2.4
@@ -2168,6 +2366,8 @@ __metadata:
     "@babel/core":
       optional: true
     "@babel/plugin-syntax-dynamic-import":
+      optional: true
+    "@babel/runtime":
       optional: true
     "@babel/traverse":
       optional: true
@@ -2179,13 +2379,13 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-rollup":
       optional: true
-  checksum: 28df6c6bbc7f90192aaf3b49d3822cc0a47188a8af30cb7005c17d0cf92a3d47b2e6307b616d586c9d05bf037564a19cd479b752161137e1302f974afec49252
+  checksum: 51bca5fa24edba10ba03d8b8a89a95e3d5f77fd8cfa6c5e41c728cd969839cf7c282dcafdffe9f3ccdd334e4c88565a52633495f52ae0f6e492329fa6965dd2b
   languageName: node
   linkType: hard
 
-"@quilted/browserslist-config@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@quilted/browserslist-config@npm:0.1.0"
+"@quilted/browserslist-config@npm:^0.1.1":
+  version: 0.1.1
+  resolution: "@quilted/browserslist-config@npm:0.1.1"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.26.0
     "@typescript-eslint/parser": ^4.26.0
@@ -2198,22 +2398,25 @@ __metadata:
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
     prettier: ^2.0.0
-  checksum: ff343f6ad01c1cc4fa7cdee4092312495820873a3076c7a92797ba84e117d5078fa6024a52245350cdaab8f74214cc3eb80214bca349abf8e28afecbd3a0e065
+  checksum: d7a9560ad86e661565b3f8ce2d87b64d45e421ab450ba87c404992c0e4b4a0281f08bb4b451cff92a36d5bf3c591d0277e81e6d01c9e70a750251f2406922f43
   languageName: node
   linkType: hard
 
-"@quilted/cloudflare@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@quilted/cloudflare@npm:0.1.3"
+"@quilted/cloudflare@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@quilted/cloudflare@npm:0.1.8"
   dependencies:
-    "@quilted/http-handlers": ^0.2.6
+    "@quilted/http-handlers": ^0.2.10
     mime: ^2.5.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/craft": ^0.1.9
     "@quilted/quilt": ^0.5.14
     "@quilted/sewing-kit": ^0.2.4
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/craft":
       optional: true
     "@quilted/quilt":
@@ -2222,64 +2425,78 @@ __metadata:
       optional: true
     react:
       optional: true
-  checksum: 3f77c206643370771445a61ac0add0b553fa52dec57429bc1390665eb5a811a5219954cdb931dbc9bb5837e65101bb8056d1a05e2d3bf993298978b482b0749f
+  checksum: 9ad4e97df0845e1fd4f06e1fe0749bd63176bcbe78d01ef0ab160585b0d109ca2d7fd9e276f34694ebcdd64979524ee0aa958efa12bd25a06d67d3f6f9c160a6
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.21":
-  version: 0.1.21
-  resolution: "@quilted/craft@npm:0.1.21"
+"@quilted/craft@npm:^0.1.39":
+  version: 0.1.39
+  resolution: "@quilted/craft@npm:0.1.39"
   dependencies:
+    "@babel/core": ">=7.0.0 <8.0.0"
     "@prefresh/vite": ^2.2.0
-    "@quilted/browserslist-config": ^0.1.0
-    "@quilted/eslint-config": ^0.1.3
-    "@quilted/prettier": ^0.2.2
-    "@quilted/sewing-kit": ^0.2.8
-    "@quilted/sewing-kit-babel": ^0.1.3
-    "@quilted/sewing-kit-eslint": ^0.1.2
-    "@quilted/sewing-kit-esnext": ^0.1.8
-    "@quilted/sewing-kit-jest": ^0.1.3
-    "@quilted/sewing-kit-package": ^0.1.4
-    "@quilted/sewing-kit-prettier": ^0.1.2
-    "@quilted/sewing-kit-react": ^0.1.2
-    "@quilted/sewing-kit-rollup": ^0.1.3
-    "@quilted/sewing-kit-targets": ^0.1.5
-    "@quilted/sewing-kit-typescript": ^0.1.2
-    "@quilted/sewing-kit-vite": ^0.1.0
-    "@quilted/typescript": ^0.2.2
+    "@quilted/browserslist-config": ^0.1.1
+    "@quilted/eslint-config": ^0.1.4
+    "@quilted/prettier": ^0.2.3
+    "@quilted/sewing-kit": ^0.2.11
+    "@quilted/sewing-kit-babel": ^0.1.6
+    "@quilted/sewing-kit-eslint": ^0.1.4
+    "@quilted/sewing-kit-esnext": ^0.1.15
+    "@quilted/sewing-kit-jest": ^0.1.7
+    "@quilted/sewing-kit-package": ^0.1.8
+    "@quilted/sewing-kit-prettier": ^0.1.4
+    "@quilted/sewing-kit-react": ^0.1.4
+    "@quilted/sewing-kit-rollup": ^0.1.6
+    "@quilted/sewing-kit-targets": ^0.1.7
+    "@quilted/sewing-kit-typescript": ^0.1.4
+    "@quilted/sewing-kit-vite": ^0.1.2
+    "@quilted/typescript": ^0.2.3
     "@rollup/plugin-alias": ^3.1.0
+    "@rollup/plugin-babel": ^5.3.0
     "@rollup/plugin-replace": ^2.4.0
     browserslist: ^4.0.0
     browserslist-useragent-regexp: ^3.0.0
     clean-css: ^5.0.0
     common-tags: ^1.8.0
+    esbuild: ^0.12.0
     postcss: ^8.0.0
     postcss-modules: ^4.0.0
     rollup: ^2.0.0
+    rollup-plugin-esbuild: ^4.5.0
     rollup-plugin-terser: ^7.0.0
+    rollup-plugin-visualizer: ^5.5.0
     systemjs: ^6.10.0
     vite: ^2.0.0
   peerDependencies:
-    "@quilted/async": ^0.3.2
-    "@quilted/polyfills": ^0.2.2
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+    "@quilted/async": ^0.3.0
+    "@quilted/graphql": ^0.4.0
+    "@quilted/polyfills": ^0.2.0
+    "@quilted/workers": ^0.2.0
     preact: ^10.0.0
     typescript: ">=4.0.0 <5.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/async":
       optional: true
+    "@quilted/graphql":
+      optional: true
     "@quilted/polyfills":
+      optional: true
+    "@quilted/workers":
       optional: true
     preact:
       optional: true
     typescript:
       optional: false
-  checksum: 376aba6a67dbb694a5b543eae9079fc8c4f5963412aa00a1f08cc1814f7eeaa5d668773ba0349b13b177f30cbc6b91bf5244939f60dc04fe3bb71123f4f9c002
+  checksum: 6aab3a518d1287ffb875ca2b126c7eac46d4d0b5682b8a8a51ed799d74b4dafa49d11736977c28184fc9fb7fbc791c67ff86d4c6e2be197634b725d257db5bf8
   languageName: node
   linkType: hard
 
-"@quilted/eslint-config@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@quilted/eslint-config@npm:0.1.3"
+"@quilted/eslint-config@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@quilted/eslint-config@npm:0.1.4"
   dependencies:
     "@typescript-eslint/eslint-plugin": ^4.26.0
     "@typescript-eslint/parser": ^4.26.0
@@ -2292,18 +2509,18 @@ __metadata:
     eslint-plugin-react: ^7.24.0
     eslint-plugin-react-hooks: ^4.2.0
     prettier: ^2.0.0
-  checksum: 7cf2a9c048098d9c7e94d23dd540f4cbf990926db65d6980da6ecb5b2d1d8d27f490ebb5a3ee1c5221a840a8683b1a67b5936508eb5408fcc25fea144f4ef2b3
+  checksum: 46542eb0bd334137759397adf4e4d93658b2d715ec2af4ac18d498adbd3c20f3151c8f153a9734c9dfb3a32bb7032063136d5fdb578a345c315ead7a17bc32f6
   languageName: node
   linkType: hard
 
-"@quilted/graphql@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@quilted/graphql@npm:0.4.2"
+"@quilted/graphql@npm:^0.4.10":
+  version: 0.4.10
+  resolution: "@quilted/graphql@npm:0.4.10"
   dependencies:
     "@babel/generator": ">=7.0.0"
     "@babel/types": ">=7.0.0"
     "@graphql-tools/merge": ^6.2.0
-    "@quilted/useful-types": ^0.2.2
+    "@quilted/useful-types": ^0.2.4
     "@types/chance": ^1.1.0
     arg: ^4.1.3
     chance: ^1.1.7
@@ -2314,46 +2531,65 @@ __metadata:
     graphql-config: ^3.3.0
     p-limit: ^3.0.2
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@jest/globals": ^27.0.0
     "@quilted/sewing-kit": ^0.2.0
-    "@quilted/sewing-kit-rollup": ^0.0.0
+    "@quilted/sewing-kit-jest": ^0.1.0
+    "@quilted/sewing-kit-rollup": ^0.1.0
+    "@quilted/sewing-kit-vite": ^0.1.0
     jest-matcher-utils: ^27.0.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@jest/globals":
       optional: true
     "@quilted/sewing-kit":
       optional: true
+    "@quilted/sewing-kit-jest":
+      optional: true
     "@quilted/sewing-kit-rollup":
+      optional: true
+    "@quilted/sewing-kit-vite":
       optional: true
     jest-matcher-utils:
       optional: true
   bin:
     quilt-graphql-typescript: bin/quilt-graphql-typescript.mjs
-  checksum: a50cc7c545228ef15b052790aa88de97ebbd2820601a44af33998907d3c7d2a5b4a21a8e0273c687415bb8343dd2a7918c87f310df744f7a21c393c6ee1caca5
+  checksum: 38abb7311dad89063aac0c7a4c197002d14bec7ee28e7772b7da10bb1ba57594e34b85f208829a5b869b11b75723c0e000c826434ce7327a375ecc3d20ee3c76
   languageName: node
   linkType: hard
 
-"@quilted/http-handlers@npm:^0.2.6":
-  version: 0.2.6
-  resolution: "@quilted/http-handlers@npm:0.2.6"
+"@quilted/http-handlers@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "@quilted/http-handlers@npm:0.2.10"
   dependencies:
-    "@quilted/http": ^0.2.2
-    "@quilted/routing": ^0.2.2
+    "@quilted/http": ^0.2.5
+    "@quilted/routing": ^0.2.5
     cookie: ^0.4.0
-  checksum: 70b86a9d2831909cbfb55e213724e35ce876024b2753ff0fcf1f7d846bb9888ae26fc6343b98a3eb571430785eae02a8d34ee65028efa74b249ca06d4bd23c67
+  peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+  peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
+  checksum: 495268961245cdf8cb57f563f2adc9758a6c3c019c56ffa26d7720076ffd2e4e4e00360947c9d22c43b39037a4f3de204b5d90a903b3271de5a241927045348b
   languageName: node
   linkType: hard
 
-"@quilted/http@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/http@npm:0.2.2"
-  checksum: 9f94d39b91359acd01958ec991f2d97e3b08b9d44b240344bfad4ed615d205086399576eddb30fa75cd10ab15afce37b254b2bafcc1dda14fa6d412574b69735
-  languageName: node
-  linkType: hard
-
-"@quilted/polyfills@npm:^0.2.5":
+"@quilted/http@npm:^0.2.5":
   version: 0.2.5
-  resolution: "@quilted/polyfills@npm:0.2.5"
+  resolution: "@quilted/http@npm:0.2.5"
+  peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+  peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
+  checksum: f54bb5bae6bdda36bda8edeca4bc2ddac48d3771fa10fd5186401ef645bf04179410579261ff48aeeec7359278450ea58e30eb0ebbc471f5599d99c9c3a0dc29
+  languageName: node
+  linkType: hard
+
+"@quilted/polyfills@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "@quilted/polyfills@npm:0.2.10"
   dependencies:
     "@types/caniuse-api": ^3.0.0
     "@types/node-fetch": ^2.0.0
@@ -2364,12 +2600,15 @@ __metadata:
     regenerator-runtime: ^0.13.0
     whatwg-fetch: ^3.5.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.2
     "@quilted/sewing-kit-jest": ^0.1.2
     "@quilted/sewing-kit-rollup": ^0.1.2
     "@quilted/sewing-kit-targets": ^0.1.2
     rollup: ^2.0.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
     "@quilted/sewing-kit-jest":
@@ -2380,201 +2619,232 @@ __metadata:
       optional: true
     rollup:
       optional: true
-  checksum: ff5ce53ec5c060178aac9b0c17af87bdaa6085e24259c73bb0197803caedde3afdb4dbd3776f1cfda889640a59cfb1fff0f0e9ecb2ad7c4be2353a964cad034f
+  checksum: 06f86c48c08728b2823bd7ea8901162705c38f056b68c808fe650260c64119d883663ae423ff7d9bd970c9cdb0b0a2e00902bc5a0ed09636f4ba669c585dbec2
   languageName: node
   linkType: hard
 
-"@quilted/preact-mini-compat@npm:^0.2.3":
-  version: 0.2.3
-  resolution: "@quilted/preact-mini-compat@npm:0.2.3"
+"@quilted/preact-mini-compat@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "@quilted/preact-mini-compat@npm:0.2.6"
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     preact: ^10.0.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     preact:
       optional: true
-  checksum: fdaeb28ffbdae4755f07a672381e2e31378d8790320f2d1a16778e8af934a5e4fda88381176ce121dadb76107de86f6486aec1296d9695f0d0400802cb46457d
+  checksum: fa9effb5c06d2cef1c787454de71f3b145b2d39b777c7292a4f16d16eebd5839ec67a1a69b8536764ed1575fb73058f50d3091130755adaec978dc35f20856fc
   languageName: node
   linkType: hard
 
-"@quilted/prettier@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/prettier@npm:0.2.2"
-  checksum: 966851592779ab585c16cc878bd9d39074aa55ecc861a16eb551aa5f3742b5fbf96d220b577a11e7376dcd431127362615424a01f6dc79bb351aa388c247480e
+"@quilted/prettier@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@quilted/prettier@npm:0.2.3"
+  checksum: 51519e46f9b748640c290e85b5d65e985bf528e93ce212376163a269a780712cc255f8cfbffae874e6b59e57d00e556033d5acdc09e43959e4714e84c6f7ff05
   languageName: node
   linkType: hard
 
-"@quilted/quilt@npm:^0.5.19":
-  version: 0.5.19
-  resolution: "@quilted/quilt@npm:0.5.19"
+"@quilted/quilt@npm:^0.5.33":
+  version: 0.5.33
+  resolution: "@quilted/quilt@npm:0.5.33"
   dependencies:
-    "@quilted/async": ^0.3.5
-    "@quilted/graphql": ^0.4.2
-    "@quilted/http-handlers": ^0.2.6
-    "@quilted/polyfills": ^0.2.5
-    "@quilted/preact-mini-compat": ^0.2.3
-    "@quilted/react-async": ^0.3.11
-    "@quilted/react-email": ^0.2.10
-    "@quilted/react-graphql": ^0.4.11
-    "@quilted/react-html": ^0.3.10
-    "@quilted/react-http": ^0.2.11
-    "@quilted/react-idle": ^0.3.2
-    "@quilted/react-router": ^0.3.11
-    "@quilted/react-server-render": ^0.3.2
-    "@quilted/react-testing": ^0.4.3
-    "@quilted/react-workers": ^0.2.5
+    "@quilted/async": ^0.3.9
+    "@quilted/graphql": ^0.4.10
+    "@quilted/http-handlers": ^0.2.10
+    "@quilted/polyfills": ^0.2.10
+    "@quilted/preact-mini-compat": ^0.2.6
+    "@quilted/react-async": ^0.3.16
+    "@quilted/react-email": ^0.2.14
+    "@quilted/react-graphql": ^0.4.21
+    "@quilted/react-html": ^0.3.14
+    "@quilted/react-http": ^0.2.15
+    "@quilted/react-idle": ^0.3.5
+    "@quilted/react-router": ^0.3.16
+    "@quilted/react-server-render": ^0.3.5
+    "@quilted/react-testing": ^0.4.6
+    "@quilted/react-workers": ^0.2.10
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
     preact: ^10.0.0
     preact-render-to-string: ^5.0.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
     react-dom: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
     react-dom:
       optional: true
-  checksum: 65b8e15dbabc35d1afb2757ee48672c4e5f80850296b4629df2ddfc32f9a233e7c004475df0d46b7344b9f3538b91010b770b387f00ad7cdcf50fd24b4cd9a43
+  checksum: 67330263b23ecd9f11edb42f6b5d99c365128d3a9cd3a79db364d3740dc0285c35e9ae0572ee94e6026d8aa967f9021333d7b9e872f29c4cabfd3b014d6ee17f
   languageName: node
   linkType: hard
 
-"@quilted/react-async@npm:^0.3.11":
-  version: 0.3.11
-  resolution: "@quilted/react-async@npm:0.3.11"
+"@quilted/react-async@npm:^0.3.16":
+  version: 0.3.16
+  resolution: "@quilted/react-async@npm:0.3.16"
   dependencies:
-    "@quilted/async": ^0.3.5
-    "@quilted/react-html": ^0.3.10
-    "@quilted/react-server-render": ^0.3.2
-    "@quilted/use-subscription": ^0.2.2
+    "@quilted/async": ^0.3.9
+    "@quilted/react-html": ^0.3.14
+    "@quilted/react-server-render": ^0.3.5
+    "@quilted/use-subscription": ^0.2.5
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 1f96ffc29966c54cd58516dda4dfebe6fe9935894a796696ca0d0ec524fc8f3dfac93f976cfa0c1e3e8f32e5cd6051f52e84ad91919203a247728f1534e969a4
+  checksum: 17bf1cec97e64730c6ab53c6247f76843a5791256384642b12b3e5313cec28759e990f902766107f8e9d4c773384947792578b150785816b0afabf301e158e69
   languageName: node
   linkType: hard
 
-"@quilted/react-email@npm:^0.2.10":
-  version: 0.2.10
-  resolution: "@quilted/react-email@npm:0.2.10"
+"@quilted/react-email@npm:^0.2.14":
+  version: 0.2.14
+  resolution: "@quilted/react-email@npm:0.2.14"
   dependencies:
-    "@quilted/react-html": ^0.3.10
-    "@quilted/react-server-render": ^0.3.2
+    "@quilted/react-html": ^0.3.14
+    "@quilted/react-server-render": ^0.3.5
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: fa429ab81ba7f8e4154ca142f21d1d195052b29993bbc00aa9efff0748fdcce69a0ccd0e9a143ba92cddb2bb7a9842badb5114d8954ca5097dd3a3965f6a8e62
+  checksum: dbc41e49b050b8cd285cad54bcb2d6f327ce79d700df62d6fa7debb5348fd1ef0d9221d23a8e6e739796e1dd93e5c79787da26d6c903104cd613861fe2c5b03b
   languageName: node
   linkType: hard
 
-"@quilted/react-graphql@npm:^0.4.11":
-  version: 0.4.11
-  resolution: "@quilted/react-graphql@npm:0.4.11"
+"@quilted/react-graphql@npm:^0.4.21":
+  version: 0.4.21
+  resolution: "@quilted/react-graphql@npm:0.4.21"
   dependencies:
-    "@quilted/graphql": ^0.4.2
-    "@quilted/react-async": ^0.3.11
-    "@quilted/useful-types": ^0.2.2
+    "@quilted/graphql": ^0.4.10
+    "@quilted/react-async": ^0.3.16
+    "@quilted/useful-types": ^0.2.4
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: d6c610be88fad10a5b8bbbe177e6d4f26f4b00762bcfa91a63065206730f7bf0fe6fe78c8f9ecf5d325d6dc9ae3dca7a6eff09c36c9bb96624fbd37c01d0f3de
+  checksum: e95e5e7625a1be9f30b08ff3cc4b7ff4f3b4e9180167318828612df9b7c35788b840558a2097ea086520c0d191a8e52b0929cb8aed28d1f81df038e0b8cc886a
   languageName: node
   linkType: hard
 
-"@quilted/react-html@npm:^0.3.10":
-  version: 0.3.10
-  resolution: "@quilted/react-html@npm:0.3.10"
+"@quilted/react-html@npm:^0.3.14":
+  version: 0.3.14
+  resolution: "@quilted/react-html@npm:0.3.14"
   dependencies:
-    "@quilted/react-server-render": ^0.3.2
+    "@quilted/react-server-render": ^0.3.5
     "@types/react": ^17.0.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
     react-dom: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
     react-dom:
       optional: true
-  checksum: 87fa8290786dfe8e91bbb8bb0a49b88c794bedbb3d927eda56bfd57362667bcd234be5330ee4dc6ee5bff0d9937e4deb5bed82f3142128170227ca9796745788
+  checksum: 3744c48a23dc70846d8016fd9cbcbddc04989c5b2784720378f1219c944bfeeee4a920cbb0441e73396262bf7faa9c5fc847deb762a0f898dc14a9955c969e15
   languageName: node
   linkType: hard
 
-"@quilted/react-http@npm:^0.2.11":
-  version: 0.2.11
-  resolution: "@quilted/react-http@npm:0.2.11"
+"@quilted/react-http@npm:^0.2.15":
+  version: 0.2.15
+  resolution: "@quilted/react-http@npm:0.2.15"
   dependencies:
-    "@quilted/http": ^0.2.2
-    "@quilted/react-html": ^0.3.10
-    "@quilted/react-server-render": ^0.3.2
+    "@quilted/http": ^0.2.5
+    "@quilted/react-html": ^0.3.14
+    "@quilted/react-server-render": ^0.3.5
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 153fdecf0027a0c0e3b17b760bcc38de80ec56e8ba0a46a653f6306887545fc7a393fb7ba64784f85d671e0614b06ed18fc8a1d4ef6463eb7930b548dad26f68
+  checksum: 88d2662d34d0915721b7ae0fa64e800021c1e156faf1220edb869eef9991321114e00b1c01f1bafe53fc712513874ebd59b9c76c98fafbf1901219bd8a1b3a72
   languageName: node
   linkType: hard
 
-"@quilted/react-idle@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@quilted/react-idle@npm:0.3.2"
+"@quilted/react-idle@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@quilted/react-idle@npm:0.3.5"
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 58d9cd821e30766e60a20f80cae0db750bf35521f4f2989c94ac18ee723729358a9da7abdf46e55ac48214feaa2bab7306fc59399bfa69d1642b7fb096ef89d9
+  checksum: ef035b600f3c3256c9afa139fa1b18e170f9e117fd42b6a15f0ad4907fbdfada359ef028cda2aa2d315bd9907210acf49fb1347f81051f6738941f034c750cbc
   languageName: node
   linkType: hard
 
-"@quilted/react-router@npm:^0.3.11":
-  version: 0.3.11
-  resolution: "@quilted/react-router@npm:0.3.11"
+"@quilted/react-router@npm:^0.3.16":
+  version: 0.3.16
+  resolution: "@quilted/react-router@npm:0.3.16"
   dependencies:
-    "@quilted/react-html": ^0.3.10
-    "@quilted/react-http": ^0.2.11
-    "@quilted/react-server-render": ^0.3.2
-    "@quilted/routing": ^0.2.2
+    "@quilted/react-html": ^0.3.14
+    "@quilted/react-http": ^0.2.15
+    "@quilted/react-server-render": ^0.3.5
+    "@quilted/routing": ^0.2.5
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 1f02e1e8a46688cfaf57d2cbe63a6107de70beebab6aa128b48c06fe7b7e2b68ef13fb4d3306426be22e37a15227bfb67b55e4281153fd4ba20d8a0a210f8f80
+  checksum: da7d2b1bb606273cf67f95bb2ca53ad2e034171f328325fe124030d17ac203cac59b55f29f3ad0c1f70431067e65b09b7336373bb954b9e9ed5bf9c7e5c9d4d7
   languageName: node
   linkType: hard
 
-"@quilted/react-server-render@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@quilted/react-server-render@npm:0.3.2"
+"@quilted/react-server-render@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@quilted/react-server-render@npm:0.3.5"
   dependencies:
     "@types/react": ^17.0.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
     react-dom: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
     react-dom:
       optional: true
-  checksum: 79ee7102cdc59263d98d86a765ec8c1aaaa184380321e99adb5387e1cca1980af47cd3a9bc345055329c03d14d34235f6d88bac567a4d30b4f21c7eac3a4e8b8
+  checksum: 62156cc89540f28d0e5a30fe97c3de7c7a2bc7d562104051746e2439d5365bdce927f40f6e804a430f9be846e8beee468ac3a3c53727f7dfa1bd48ba2f7e177a
   languageName: node
   linkType: hard
 
-"@quilted/react-testing@npm:^0.4.3":
-  version: 0.4.3
-  resolution: "@quilted/react-testing@npm:0.4.3"
+"@quilted/react-testing@npm:^0.4.6":
+  version: 0.4.6
+  resolution: "@quilted/react-testing@npm:0.4.6"
   dependencies:
     "@types/react-test-renderer": ^17.0.0
     jest-matcher-utils: ^27.0.0
     react-reconciler: ^0.26.0
     react-test-renderer: ^17.0.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@jest/globals": ^27.0.0
     "@quilted/sewing-kit": ^0.2.0
     "@quilted/sewing-kit-jest": ^0.0.0
@@ -2582,6 +2852,8 @@ __metadata:
     react: ">=17.0.0 <18.0.0"
     react-dom: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@jest/globals":
       optional: true
     "@quilted/sewing-kit":
@@ -2594,82 +2866,102 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: e47d74c3825af5e796fd309946aa462878779504fb6f33b33055a8fc8b931d7ba07661278404512f9eefce9fe45c233279fc130a84fd58b6db3eceec1ac86c2d
+  checksum: 11d548b3f67618f82ad285b318a7c3423cb0bcd0d3049e9e2317672a7e691db88cc7e7eb48832e1288977b3a1c69c088e996639b58b66d700a3ea06f1bde65f0
   languageName: node
   linkType: hard
 
-"@quilted/react-workers@npm:^0.2.5":
-  version: 0.2.5
-  resolution: "@quilted/react-workers@npm:0.2.5"
+"@quilted/react-workers@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "@quilted/react-workers@npm:0.2.10"
   dependencies:
-    "@quilted/workers": ^0.2.5
+    "@quilted/workers": ^0.2.10
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 6a0b67339df2e52c224da3a56f0325440addbcdf2c54896a566f5e7f92c813335d57cb4053f46b4e2f7697106c2765d272de1b550a0ec4afe56ff72897c6f64d
+  checksum: 52f3cab2ea339d6c32b1137e6841ff352baa234687af367e18a026b63d7901a9d2077abe4d00cacf0bf047fbc7b3fd9548c6685e1c863b340807b8325f12a5ab
   languageName: node
   linkType: hard
 
-"@quilted/routing@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/routing@npm:0.2.2"
+"@quilted/routing@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@quilted/routing@npm:0.2.5"
+  peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+  peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
   bin:
     sewing-kit: bin/sewing-kit.mjs
     sk: bin/sk.mjs
-  checksum: 4c98c63788174e462f9832bc2c8b0a8bf34f0384873065efbbb0bb8c70fe51e26569a3b3948cbdb8465811808bb495f6321dfa6cd90a2ab946a9fdb5e8b432c3
+  checksum: d9d13ed974dd2058bc91f355868af758383ed6e4ddb54e671bd7eefae51905f4983f546bb2392f3fe95bb31ae20b41ef0e84617026f032a7af3b755d2a8352c4
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-babel@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@quilted/sewing-kit-babel@npm:0.1.3"
+"@quilted/sewing-kit-babel@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@quilted/sewing-kit-babel@npm:0.1.6"
   dependencies:
     "@babel/core": ^7.14.0
+    "@babel/plugin-transform-runtime": ">=7.0.0 <8.0.0"
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@rollup/plugin-babel": ^5.0.0
   peerDependencies:
     "@quilted/sewing-kit": ^0.2.0
     "@quilted/sewing-kit-rollup": ^0.1.0
     rollup: ^2.0.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
     "@quilted/sewing-kit-rollup":
       optional: true
     rollup:
       optional: true
-  checksum: 09dc05111e20e2d216ef98900ace004189c618a898ece30aadea06dd39f3ee99148263fb50e767e52cdfe11a143de49cd70a8623bbc95fcf0d147c30ed9560be
+  checksum: fc9de91132458c95b29a229812eeb357b37b828083ec1d5ec0d4a058b442bbad1db1cf2f00436f0c460927b883b5230a8d8b6701386c2f89de14f49cc332059a
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-eslint@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@quilted/sewing-kit-eslint@npm:0.1.2"
+"@quilted/sewing-kit-eslint@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@quilted/sewing-kit-eslint@npm:0.1.4"
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: d535ed56d8fa0736ccb756f7b1764449b5883174c6a209a7135afc1ab9779836d49516cc90fe0d4ac33cf719763f9304fed610ae921cf3b0c76b535be46d1394
+  checksum: 527e13f3384e72c5810b333302b7886e64a945d4e26977575b96e091a992a57fa5bac4511dea5788e2b6f29afd01cc01e148aac0923fe67f1de92c3762780f27
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-esnext@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@quilted/sewing-kit-esnext@npm:0.1.8"
+"@quilted/sewing-kit-esnext@npm:^0.1.15":
+  version: 0.1.15
+  resolution: "@quilted/sewing-kit-esnext@npm:0.1.15"
   dependencies:
-    "@quilted/sewing-kit-rollup": ^0.1.3
+    "@quilted/sewing-kit-rollup": ^0.1.6
     "@rollup/plugin-babel": ^5.3.0
+    esbuild: ^0.12.0
     rollup: ^2.0.0
+    rollup-plugin-esbuild: ^4.5.0
   peerDependencies:
     "@babel/core": ^7.0.0
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
     "@quilted/sewing-kit-babel": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.0
     "@quilted/sewing-kit-vite": ^0.1.0
   peerDependenciesMeta:
     "@babel/core":
+      optional: true
+    "@babel/runtime":
       optional: true
     "@quilted/sewing-kit":
       optional: true
@@ -2679,62 +2971,73 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-vite":
       optional: true
-  checksum: 1083c0604ca7dcf19675f86ad3465051d254354ff39f9f8f8b3f93f5091476f20403880399b9ea7300d68b8ff8e4c91b5efb994927f7d0a5bb2d83b264f12681
+  checksum: db81c58e26c421c32c91f0f3b28a8c4f20e60891eb2b409ba2582e70fd415638b68a486e4058154d8317d9fd5661411ef0a36fa6d2230b2704b346651debf5a4
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-jest@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@quilted/sewing-kit-jest@npm:0.1.3"
+"@quilted/sewing-kit-jest@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "@quilted/sewing-kit-jest@npm:0.1.7"
   dependencies:
     "@types/jest": ^26.0.0
+    enhanced-resolve: ^5.8.0
     jest: ^27.0.0
-    jest-config: ^27.0.0
+    jest-config: ^27.0.5
     jest-watch-typeahead: ^0.6.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 1364209bc806882ceb311346e8a3490a43e4470cb00741b7b4b59e30706821db90a9b23a64810c9d83e13a831ce8c61549956bbfecc2a1a356206e976e8002fd
+  checksum: 47bc2ac58e23a6f0460e219a62d4724ba51f0cfa650df65b9a6a6952a8cbd8c88c90e337bb166a570bee6fb8be62dbda87be58b57f11360d75bf07e9387917ff
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-package@npm:^0.1.4":
-  version: 0.1.4
-  resolution: "@quilted/sewing-kit-package@npm:0.1.4"
+"@quilted/sewing-kit-package@npm:^0.1.8":
+  version: 0.1.8
+  resolution: "@quilted/sewing-kit-package@npm:0.1.8"
   dependencies:
-    "@quilted/sewing-kit-rollup": ^0.1.3
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+    "@quilted/sewing-kit-rollup": ^0.1.6
     rollup: ^2.0.0
   peerDependencies:
     "@quilted/sewing-kit": ^0.2.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 8080875998a326278d448e2c7fd26a31021c3b503ded5fec66bc6ce7a57a38e6fd42780d175e3a1169b5473d1137ac426a7477edf5a7f8e7097e47e6b43c6c7d
+  checksum: 33f7f0be24568b1f5e7207535ea05d3f3f52935fbbd400873a0ec2dafa26f14b1248f05e96c29d45704a96f3127d6005689f55b89a649915b265a22ffa10743b
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-prettier@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@quilted/sewing-kit-prettier@npm:0.1.2"
+"@quilted/sewing-kit-prettier@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@quilted/sewing-kit-prettier@npm:0.1.4"
   dependencies:
     "@types/prettier": ^2.0.0
     prettier: ^2.3.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 7d3a61e40e4dbaf1f560177eba07afaf04682fb7e5727c279a3e0fbaa9924a533326f914f60e8125ebe26d6f116aa0338d38a56d603882ff99dba6f41661942d
+  checksum: e5da11e832f03ae077332f788d1e52c5ecf97ddb481a710c5dee4d3f314c76b40fd910281d1fa94890c6bad20847036d4d3af70a0e2c657de0e2dca0c97a1c1e
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-react@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@quilted/sewing-kit-react@npm:0.1.2"
+"@quilted/sewing-kit-react@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@quilted/sewing-kit-react@npm:0.1.4"
   dependencies:
     "@babel/preset-react": ^7.0.0
+    "@babel/runtime": ">=7.0.0 <8.0.0"
   peerDependencies:
     "@babel/core": ^7.0.0
     "@quilted/sewing-kit": ^0.2.0
@@ -2742,17 +3045,19 @@ __metadata:
   peerDependenciesMeta:
     "@babel/core":
       optional: true
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
     "@quilted/sewing-kit-babel":
       optional: true
-  checksum: c54274fce35d3a0b5d503a877fd48adb7111b905d36ea6817d5aa0eb6df08a8ae876dce113d04a6dd27ef9823fe3dda9d2c33cf56032d9d4e042372802334164
+  checksum: 0ed566e927af15339590e7442f8a7c16d59143316f1942efba488af13c60ab026c088cc26711eeab5f6aff0c6912c75dc1c284d1e39a77d05aac78ce5840068f
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-rollup@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@quilted/sewing-kit-rollup@npm:0.1.3"
+"@quilted/sewing-kit-rollup@npm:^0.1.6":
+  version: 0.1.6
+  resolution: "@quilted/sewing-kit-rollup@npm:0.1.6"
   dependencies:
     "@rollup/plugin-commonjs": ^19.0.0
     "@rollup/plugin-json": ^4.0.0
@@ -2761,17 +3066,20 @@ __metadata:
     rollup: ^2.0.0
     rollup-plugin-node-externals: ^2.0.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 64b0ecf689d9241e98bc3222c31d180b3678062f9281620468bf830bd5b9fcd8a8542d5f080b43fe483d56a86842baf1429a4bedd03b5e68bcf8196dada4b38e
+  checksum: bd321576ef179a424a466f85cabda5e92594b2f857ab31efb6429ab7ae5a0b86fb59855ff881c0ccaec64d156139e8339c920b8d362e176e0b3e2502a58ecf8b
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-targets@npm:^0.1.5":
-  version: 0.1.5
-  resolution: "@quilted/sewing-kit-targets@npm:0.1.5"
+"@quilted/sewing-kit-targets@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "@quilted/sewing-kit-targets@npm:0.1.7"
   dependencies:
     "@babel/preset-env": ^7.14.0
     "@types/semver": ^7.0.0
@@ -2789,23 +3097,26 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-babel":
       optional: true
-  checksum: da580ce47f1e78af5ed981a232f2247c27170a817c23d6b8e41b61b5296fef28487811601f1d82a7d75876a09a4ba2e31a1dd19b2242b1b4ce77489c76319f47
+  checksum: f35e4cf67a4a51195dd255665158ad0b71f4f330b6ea07cdbb3f0acb0967c70677496af885ff516dc2fe7bcb60ed00e79497120e30a603c1fe7d819fa2b4d0d3
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-typescript@npm:^0.1.2":
-  version: 0.1.2
-  resolution: "@quilted/sewing-kit-typescript@npm:0.1.2"
+"@quilted/sewing-kit-typescript@npm:^0.1.4":
+  version: 0.1.4
+  resolution: "@quilted/sewing-kit-typescript@npm:0.1.4"
   dependencies:
     "@babel/preset-typescript": ^7.13.0
   peerDependencies:
     "@babel/core": ^7.0.0
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
     "@quilted/sewing-kit-babel": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.0
     typescript: ">=4.0.0 <5.0.0"
   peerDependenciesMeta:
     "@babel/core":
+      optional: true
+    "@babel/runtime":
       optional: true
     "@quilted/sewing-kit":
       optional: true
@@ -2815,21 +3126,24 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: fbc380f43183bf2314761094634cbf0099fca95a7f80acb02cfeccc8d7931f7fedb0b3cbcecf009c1e2419e57bad9a2a5b038853aff6c1a8b228ac9aa962fb48
+  checksum: 1dff58f7e80913462fe502ed84cdf0658653c1ac572cbd7ef2895191037acb4812e89bce869f2160f5fa4abf10d289dee3727feceac7f01c05df36422c9538c7
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-vite@npm:^0.1.0":
-  version: 0.1.0
-  resolution: "@quilted/sewing-kit-vite@npm:0.1.0"
+"@quilted/sewing-kit-vite@npm:^0.1.2":
+  version: 0.1.2
+  resolution: "@quilted/sewing-kit-vite@npm:0.1.2"
   dependencies:
     vite: ^2.3.0
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
     "@quilted/sewing-kit-babel": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.0
     rollup: ^2.0.0
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     "@quilted/sewing-kit":
       optional: true
     "@quilted/sewing-kit-babel":
@@ -2838,13 +3152,13 @@ __metadata:
       optional: true
     rollup:
       optional: true
-  checksum: 4325cc4bed0378b02ca32a6d2e9e46e9a78bdc34aab9d61bda73e684db0dc2485e04c06e12199c789ec3bdf75b07da9e2a07e9510941d2bc965761df75f55d9e
+  checksum: e48d27c0200441c2e6b2f21dfd582d81e0e3acc1b06059f4fe80110986fb195653dd4e9f03b1422b0c405614616d4d2e40ed6642d4a404a0b48b5b2f1399dd77
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit@npm:^0.2.8":
-  version: 0.2.8
-  resolution: "@quilted/sewing-kit@npm:0.2.8"
+"@quilted/sewing-kit@npm:^0.2.11":
+  version: 0.2.11
+  resolution: "@quilted/sewing-kit@npm:0.2.11"
   dependencies:
     "@rollup/plugin-commonjs": ^19.0.0
     "@rollup/plugin-json": ^4.1.0
@@ -2856,53 +3170,65 @@ __metadata:
     globby: ^11.0.0
     rollup: ^2.0.0
     rollup-plugin-esbuild: ^4.5.0
+  peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
+  peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
   bin:
     sewing-kit: bin/sewing-kit.mjs
     sk: bin/sk.mjs
-  checksum: 6e7574a0f847718c70b5102481f806c922f08f4cdb71d67def6466bb07870b324e959162d66d84cd137f393a5394469254dbe2937579d32d5ff19c38e1e33b03
+  checksum: 8e1a4cd5fb425706f95086f9ef5fdd1f58947c6bdca3a53203ca940ddf698f611f7299eef4d4fc8432c6ca623327e606896603105e2d9a19d7c0d16b49500f63
   languageName: node
   linkType: hard
 
-"@quilted/typescript@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/typescript@npm:0.2.2"
-  checksum: 2fa43ed5f0b524fc38e5672d3c2bcec004ec64222add394b9ed5fa5ac0f40115c6b60c09f7ab445ae2c537a9ac5abc7a6165eddd31ef0482588551b85f04bc29
+"@quilted/typescript@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@quilted/typescript@npm:0.2.3"
+  checksum: 1772144ca0109bc0f079b6982eabe1c832f98a85e29b8503d7a67d6904ee8fd95995f517b9ac59b484f07a1fca1380d27c870c32dc66752b3d09e916a8ba636a
   languageName: node
   linkType: hard
 
-"@quilted/use-subscription@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/use-subscription@npm:0.2.2"
+"@quilted/use-subscription@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@quilted/use-subscription@npm:0.2.5"
   peerDependencies:
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
+    "@babel/runtime":
+      optional: true
     react:
       optional: true
-  checksum: 552c905fafb48c0d45c5274d6fd15220650973bbdebd6d8c4f3f8b895619e0dbd060bc27f75fd33df03d8e3bec7b1046ec5dd9159531fce041601b975779d546
+  checksum: 41b446a147465ca4701ec114858e4e941163b2320104bbcdd4cdc319414b51d6adb637e86fd06da0bfe644b14472169ac0e238b3e49c739d67e39f785c58ef30
   languageName: node
   linkType: hard
 
-"@quilted/useful-types@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/useful-types@npm:0.2.2"
-  checksum: 4e1181f0f314239bb08f0d88a6e540015c7b58eb2dd6fa5eff92150e35384448fb5c64acf0221aea0af65e9f8f923009517029aad02e1989c137a2d184d0ee8f
+"@quilted/useful-types@npm:^0.2.4":
+  version: 0.2.4
+  resolution: "@quilted/useful-types@npm:0.2.4"
+  checksum: f6c20b861ec1099b2657108a06380ecd54a46bd248ef920fadcd3bfc22ffa0cbd8e33f446af298af7c949c222626c146646008e1ef0a43ba49ee113faec360b1
   languageName: node
   linkType: hard
 
-"@quilted/workers@npm:^0.2.5":
-  version: 0.2.5
-  resolution: "@quilted/workers@npm:0.2.5"
+"@quilted/workers@npm:^0.2.10":
+  version: 0.2.10
+  resolution: "@quilted/workers@npm:0.2.10"
   dependencies:
     "@remote-ui/rpc": ^1.2.0
     common-tags: ^1.8.0
   peerDependencies:
     "@babel/core": ">=7.0.0 <8.0.0"
+    "@babel/runtime": ">=7.0.0 <8.0.0"
     "@quilted/sewing-kit": ^0.2.0
-    "@quilted/sewing-kit-babel": ^0.0.0
-    "@quilted/sewing-kit-rollup": ^0.0.0
+    "@quilted/sewing-kit-babel": ^0.1.0
+    "@quilted/sewing-kit-rollup": ^0.1.0
+    "@quilted/sewing-kit-vite": ^0.1.0
     rollup: ">=2.50.3 <3.0.0"
   peerDependenciesMeta:
     "@babel/core":
+      optional: true
+    "@babel/runtime":
       optional: true
     "@quilted/sewing-kit":
       optional: true
@@ -2910,9 +3236,11 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-rollup":
       optional: true
+    "@quilted/sewing-kit-vite":
+      optional: true
     rollup:
       optional: true
-  checksum: 1c8a2e05dc7b44000eda32097824f28771f97caa37bb34ec8d63cdec1e0f51d953f9497475dde469196c41b0fc18e2dce1d024f19b6deebf73059c8b75747505
+  checksum: 0669ed0e159d82a8b3380b74163c1a6a4f01c93d74dfa3217490a09dc86bf54dd905e59062a991d6f1b05d942a3c52aae96eff69d0329e656e1f7200c08477e0
   languageName: node
   linkType: hard
 
@@ -3787,6 +4115,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-jest@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "babel-jest@npm:27.0.6"
+  dependencies:
+    "@jest/transform": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/babel__core": ^7.1.14
+    babel-plugin-istanbul: ^6.0.0
+    babel-preset-jest: ^27.0.6
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.4
+    slash: ^3.0.0
+  peerDependencies:
+    "@babel/core": ^7.8.0
+  checksum: 49a9c0e4f0bb6126c3448c8d2316d0a98a8bec49e62f890dc11a8c8f9e0554f1f812f88457a550c8c421d417f96808889123ed880edc2b1a49ad2264b083b395
+  languageName: node
+  linkType: hard
+
 "babel-plugin-dynamic-import-node@npm:^2.3.3":
   version: 2.3.3
   resolution: "babel-plugin-dynamic-import-node@npm:2.3.3"
@@ -3821,7 +4167,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-corejs2@npm:^0.2.0":
+"babel-plugin-jest-hoist@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "babel-plugin-jest-hoist@npm:27.0.6"
+  dependencies:
+    "@babel/template": ^7.3.3
+    "@babel/types": ^7.3.3
+    "@types/babel__core": ^7.0.0
+    "@types/babel__traverse": ^7.0.6
+  checksum: e827ace2c517577c50ebc7d062161885de7419172e044ca3709fa245806d94f72e93c4614649b1ba9a083fa3648f9c830d3bc4ff823e452d7f70e577282ff14e
+  languageName: node
+  linkType: hard
+
+"babel-plugin-polyfill-corejs2@npm:^0.2.0, babel-plugin-polyfill-corejs2@npm:^0.2.2":
   version: 0.2.2
   resolution: "babel-plugin-polyfill-corejs2@npm:0.2.2"
   dependencies:
@@ -3846,7 +4204,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-plugin-polyfill-regenerator@npm:^0.2.0":
+"babel-plugin-polyfill-corejs3@npm:^0.2.2":
+  version: 0.2.3
+  resolution: "babel-plugin-polyfill-corejs3@npm:0.2.3"
+  dependencies:
+    "@babel/helper-define-polyfill-provider": ^0.2.2
+    core-js-compat: ^3.14.0
+  peerDependencies:
+    "@babel/core": ^7.0.0-0
+  checksum: 787cc989cee73f4a7cf9a5b7b3989a1647d7ae75085506cef8ed6e798a67aa332fe87d42511f0dc556631b16e87d933497ee60afb39cd23b4fbc91497afb57f6
+  languageName: node
+  linkType: hard
+
+"babel-plugin-polyfill-regenerator@npm:^0.2.0, babel-plugin-polyfill-regenerator@npm:^0.2.2":
   version: 0.2.2
   resolution: "babel-plugin-polyfill-regenerator@npm:0.2.2"
   dependencies:
@@ -3888,6 +4258,18 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
   checksum: 46a36c790f9158d60953f64fffbeaf82bf27e306003db519121cfc15fe02d6ae6c676d39d75055a594927a9eabdf2fe678a39f3b3dd5709f3009e2d0c591dc95
+  languageName: node
+  linkType: hard
+
+"babel-preset-jest@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "babel-preset-jest@npm:27.0.6"
+  dependencies:
+    babel-plugin-jest-hoist: ^27.0.6
+    babel-preset-current-node-syntax: ^1.0.0
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: db64161f1dc95c6b81a91dab3a1c24da79b9fa66dc65223f0bc72d23aa8e0af6d46492eed02e094fd099806036f0711066c4a843ef9223909e757c4be4d19895
   languageName: node
   linkType: hard
 
@@ -4346,6 +4728,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"core-js-compat@npm:^3.14.0":
+  version: 3.15.2
+  resolution: "core-js-compat@npm:3.15.2"
+  dependencies:
+    browserslist: ^4.16.6
+    semver: 7.0.0
+  checksum: 36b6881def01995c648e21bee742fe3f08659c4c73c4ea4ce15da294f52533e2fda8e0b5635889e3dabdbee1f641d09658e3c765116c2803b81cf38e954ecd46
+  languageName: node
+  linkType: hard
+
 "core-js-compat@npm:^3.9.0, core-js-compat@npm:^3.9.1":
   version: 3.14.0
   resolution: "core-js-compat@npm:3.14.0"
@@ -4606,6 +4998,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"diff-sequences@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "diff-sequences@npm:27.0.6"
+  checksum: c2a10ecdf2d66a319e3f18f2d0b9cab6282631084c84825bdf65152743d515b6ea07ce2920b6fe7a1a5c6b9148708b23d53178d1f215b8f6d195dc44d1ed770f
+  languageName: node
+  linkType: hard
+
 "diff@npm:^4.0.1":
   version: 4.0.2
   resolution: "diff@npm:4.0.2"
@@ -4713,6 +5112,16 @@ __metadata:
   dependencies:
     iconv-lite: ^0.6.2
   checksum: 282d5696a4916383b0f71a87375505e33ef0be0c3a30939fb559a878b691873d48acc61ee6dcbfacf3e68404ab4462e081bcfd0aa3c9a3f1fabb900306aad77d
+  languageName: node
+  linkType: hard
+
+"enhanced-resolve@npm:^5.8.0":
+  version: 5.8.2
+  resolution: "enhanced-resolve@npm:5.8.2"
+  dependencies:
+    graceful-fs: ^4.2.4
+    tapable: ^2.2.0
+  checksum: 1af3f6bcb92e849f6c18d44c427cbdaecac4be61023f2008d2ef0f8a48c909bf13afa9a5c04f9d030f27d9a7e27e40c367caa22cd63d2a7eb5fdbab7579d1538
   languageName: node
   linkType: hard
 
@@ -5176,6 +5585,20 @@ __metadata:
     jest-message-util: ^27.0.2
     jest-regex-util: ^27.0.1
   checksum: 7a2bc046598801e5edefc03699c8ebf457acff3affb68708a11c7f5c064bbd4582cd44bb90fe4045c73b04d57f18c6435e94f893f213d03f3271de620d6e23ea
+  languageName: node
+  linkType: hard
+
+"expect@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "expect@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    ansi-styles: ^5.0.0
+    jest-get-type: ^27.0.6
+    jest-matcher-utils: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-regex-util: ^27.0.6
+  checksum: 99398247fc08d614ad6f59787355173d17a22d33e402eecb72f55bc655281a117f333380b47b49a35db1bf1aa40d2a3072fbaa23accadea3e6ce8071c3579ef3
   languageName: node
   linkType: hard
 
@@ -5910,6 +6333,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-docker@npm:^2.0.0":
+  version: 2.2.1
+  resolution: "is-docker@npm:2.2.1"
+  bin:
+    is-docker: cli.js
+  checksum: 7dbd6eecfe91984ef28ee80b13bd20ce4b27c1645542ae714a3976c881f7d166a3dcddb8b4f67c22285c4505f0b0e585a3b12feb4518b17f86b8a15b9f55c718
+  languageName: node
+  linkType: hard
+
 "is-extglob@npm:^2.1.1":
   version: 2.1.1
   resolution: "is-extglob@npm:2.1.1"
@@ -6054,6 +6486,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"is-wsl@npm:^2.1.1":
+  version: 2.2.0
+  resolution: "is-wsl@npm:2.2.0"
+  dependencies:
+    is-docker: ^2.0.0
+  checksum: 3dcc4073d4682b9f9a4c59411bb73716cfff88eae58a6bd0af302b8ee016263a5150302bb296bc81a4cb0d3b66c86d82b3ee0146ed15f6558022bc847a2549a2
+  languageName: node
+  linkType: hard
+
 "isarray@npm:~1.0.0":
   version: 1.0.0
   resolution: "isarray@npm:1.0.0"
@@ -6180,6 +6621,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-circus@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-circus@npm:27.0.6"
+  dependencies:
+    "@jest/environment": ^27.0.6
+    "@jest/test-result": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    chalk: ^4.0.0
+    co: ^4.6.0
+    dedent: ^0.7.0
+    expect: ^27.0.6
+    is-generator-fn: ^2.0.0
+    jest-each: ^27.0.6
+    jest-matcher-utils: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-runtime: ^27.0.6
+    jest-snapshot: ^27.0.6
+    jest-util: ^27.0.6
+    pretty-format: ^27.0.6
+    slash: ^3.0.0
+    stack-utils: ^2.0.3
+    throat: ^6.0.1
+  checksum: 89d71cef81fda584f3f3d7d9a3a85412711999f367938dc6aabdf6e16288f369e271b551c77da4f0c0490e5c375b337fbd5b36553522b47a778dce1acfcba220
+  languageName: node
+  linkType: hard
+
 "jest-cli@npm:^27.0.4":
   version: 27.0.4
   resolution: "jest-cli@npm:27.0.4"
@@ -6207,7 +6675,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-config@npm:^27.0.0, jest-config@npm:^27.0.4":
+"jest-config@npm:^27.0.4":
   version: 27.0.4
   resolution: "jest-config@npm:27.0.4"
   dependencies:
@@ -6241,6 +6709,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-config@npm:^27.0.5":
+  version: 27.0.6
+  resolution: "jest-config@npm:27.0.6"
+  dependencies:
+    "@babel/core": ^7.1.0
+    "@jest/test-sequencer": ^27.0.6
+    "@jest/types": ^27.0.6
+    babel-jest: ^27.0.6
+    chalk: ^4.0.0
+    deepmerge: ^4.2.2
+    glob: ^7.1.1
+    graceful-fs: ^4.2.4
+    is-ci: ^3.0.0
+    jest-circus: ^27.0.6
+    jest-environment-jsdom: ^27.0.6
+    jest-environment-node: ^27.0.6
+    jest-get-type: ^27.0.6
+    jest-jasmine2: ^27.0.6
+    jest-regex-util: ^27.0.6
+    jest-resolve: ^27.0.6
+    jest-runner: ^27.0.6
+    jest-util: ^27.0.6
+    jest-validate: ^27.0.6
+    micromatch: ^4.0.4
+    pretty-format: ^27.0.6
+  peerDependencies:
+    ts-node: ">=9.0.0"
+  peerDependenciesMeta:
+    ts-node:
+      optional: true
+  checksum: a27c996173c3fa8c0bf6a4a72aa4b517cd8c766b5f56bd76da54a474f2d40678711cfc842f5b220da524d2ce4f0c6b431c96fcbb787ebe829fea5e7d9a77cf30
+  languageName: node
+  linkType: hard
+
 "jest-diff@npm:^26.0.0":
   version: 26.6.2
   resolution: "jest-diff@npm:26.6.2"
@@ -6265,12 +6767,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-diff@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-diff@npm:27.0.6"
+  dependencies:
+    chalk: ^4.0.0
+    diff-sequences: ^27.0.6
+    jest-get-type: ^27.0.6
+    pretty-format: ^27.0.6
+  checksum: 054aa17420ad516f06294a7b6cd014881fac202fee3833893a6414f84bc49a910d3d0dff5bf527462f724b1e5790eecf2c1f0bf2ea87e51b5fdd448334dd1608
+  languageName: node
+  linkType: hard
+
 "jest-docblock@npm:^27.0.1":
   version: 27.0.1
   resolution: "jest-docblock@npm:27.0.1"
   dependencies:
     detect-newline: ^3.0.0
   checksum: 64a346c2648a3d5a192b3ec00af26d3d0fab28fb547b8fdce8106ea6f6dd99b0f81095d388244d1bb1be3704541873eee3c5104862f6f27a45b6d5616667fc2b
+  languageName: node
+  linkType: hard
+
+"jest-docblock@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-docblock@npm:27.0.6"
+  dependencies:
+    detect-newline: ^3.0.0
+  checksum: f5d4eb5e921788ad81e110cc302873cde995a32ea594e71ce57630bef29c59efe06c527ee6efa0d257961b25587a9cffacfe9e41d903025bbc6da1b4fa22be17
   languageName: node
   linkType: hard
 
@@ -6284,6 +6807,19 @@ __metadata:
     jest-util: ^27.0.2
     pretty-format: ^27.0.2
   checksum: c0451c12830927b3709e72cd8bb35ab2276c507e682ed662878a31b9a0c9281c00e96447a0e85b195d0914f4ff2c5d081e31982a5a929659de3fbfac62501e0d
+  languageName: node
+  linkType: hard
+
+"jest-each@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-each@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    chalk: ^4.0.0
+    jest-get-type: ^27.0.6
+    jest-util: ^27.0.6
+    pretty-format: ^27.0.6
+  checksum: c80b77920856664a031f30b0c5121355dcdbbad254f3ce85d69fd7e0b850a69b15f1b98263d39e6d2c1b758e59906a16826ca42721e505934be25e134c62d707
   languageName: node
   linkType: hard
 
@@ -6302,6 +6838,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-environment-jsdom@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-environment-jsdom@npm:27.0.6"
+  dependencies:
+    "@jest/environment": ^27.0.6
+    "@jest/fake-timers": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    jest-mock: ^27.0.6
+    jest-util: ^27.0.6
+    jsdom: ^16.6.0
+  checksum: d92d47ab5605654c2b9121705f3688592e6676b8a5a285bb3cf5fa3a8781bdb42bb58b283157bb632a98f1f3f2f2e4d4949ec1c9887fd371d84f8603c4098976
+  languageName: node
+  linkType: hard
+
 "jest-environment-node@npm:^27.0.3":
   version: 27.0.3
   resolution: "jest-environment-node@npm:27.0.3"
@@ -6316,6 +6867,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-environment-node@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-environment-node@npm:27.0.6"
+  dependencies:
+    "@jest/environment": ^27.0.6
+    "@jest/fake-timers": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    jest-mock: ^27.0.6
+    jest-util: ^27.0.6
+  checksum: beafa40be831db7268544be0a5d5914e9901bb1c3987557ab9b4b2b9a6798b659bae83acc4d668b1869e23f16f0cea93f12b67174fa098e9868aa62c8437c541
+  languageName: node
+  linkType: hard
+
 "jest-get-type@npm:^26.3.0":
   version: 26.3.0
   resolution: "jest-get-type@npm:26.3.0"
@@ -6327,6 +6892,13 @@ __metadata:
   version: 27.0.1
   resolution: "jest-get-type@npm:27.0.1"
   checksum: bb816bd1e5bf64848448cceb8c441cd5a41881eb744a255ee76833b5bac3e32e4f3ac2735b7af2f5f541cabe4d8eb72937c50bc54349a3db2477969c01f92f54
+  languageName: node
+  linkType: hard
+
+"jest-get-type@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-get-type@npm:27.0.6"
+  checksum: ec2669ab967ae86b079052532596b27b367b7b665047aff2bb9f98c888076902e1e3c8a5626b0e6ae73eda50a502a87033bc4142154070d77fa9058fb15ba505
   languageName: node
   linkType: hard
 
@@ -6351,6 +6923,30 @@ __metadata:
     fsevents:
       optional: true
   checksum: 2abd562615eb6990502cae7462f99bef6bf528ce239c5247caab55d9389d415783c39a3f1f82d056879926cd3e785c863ebfca28ded592d441002b38f89a0e76
+  languageName: node
+  linkType: hard
+
+"jest-haste-map@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-haste-map@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    "@types/graceful-fs": ^4.1.2
+    "@types/node": "*"
+    anymatch: ^3.0.3
+    fb-watchman: ^2.0.0
+    fsevents: ^2.3.2
+    graceful-fs: ^4.2.4
+    jest-regex-util: ^27.0.6
+    jest-serializer: ^27.0.6
+    jest-util: ^27.0.6
+    jest-worker: ^27.0.6
+    micromatch: ^4.0.4
+    walker: ^1.0.7
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: 95357f845703c5de276db8da38c16bf697753d39781ab8200d4c0819c063337e2a6250642636d52e0e3c85c6885f1750dcce4b3ed28709e1958e69ab84e63e53
   languageName: node
   linkType: hard
 
@@ -6380,6 +6976,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-jasmine2@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-jasmine2@npm:27.0.6"
+  dependencies:
+    "@babel/traverse": ^7.1.0
+    "@jest/environment": ^27.0.6
+    "@jest/source-map": ^27.0.6
+    "@jest/test-result": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    chalk: ^4.0.0
+    co: ^4.6.0
+    expect: ^27.0.6
+    is-generator-fn: ^2.0.0
+    jest-each: ^27.0.6
+    jest-matcher-utils: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-runtime: ^27.0.6
+    jest-snapshot: ^27.0.6
+    jest-util: ^27.0.6
+    pretty-format: ^27.0.6
+    throat: ^6.0.1
+  checksum: 490f13c8758beb9a621662b166d62f16200b7db6188da4cdc82213e9310c9fa22978b756055f90f07aa3952e0b336f8b4447f3a075fce6c0a42ea23452e50aaf
+  languageName: node
+  linkType: hard
+
 "jest-leak-detector@npm:^27.0.2":
   version: 27.0.2
   resolution: "jest-leak-detector@npm:27.0.2"
@@ -6387,6 +7009,16 @@ __metadata:
     jest-get-type: ^27.0.1
     pretty-format: ^27.0.2
   checksum: 6ebd03ecaf4aca3045e5c6fe205bb478b7046db362d1ababa97b6e65dd74bd4849cdec3f1179d41ef809192a7da93d661fa38016c85a54852aa5053679ab3a85
+  languageName: node
+  linkType: hard
+
+"jest-leak-detector@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-leak-detector@npm:27.0.6"
+  dependencies:
+    jest-get-type: ^27.0.6
+    pretty-format: ^27.0.6
+  checksum: 58c2de614403b2c7dde58ad608645d981a4c1d2050b0afaf35844e807f2ad13b7c4413e4f7934b8373c35c7f6c9445b2ab77f191e7f6fc7f28b484ab63cccd89
   languageName: node
   linkType: hard
 
@@ -6399,6 +7031,18 @@ __metadata:
     jest-get-type: ^27.0.1
     pretty-format: ^27.0.2
   checksum: b2c0cc40c35d2101bca3ee2f057a65f346aee210232f6fcb14fb18abf1a6c91a031848e71eaa00afa4c6a40105aa1e8957dc3e0cfda583089325eb81827d1c74
+  languageName: node
+  linkType: hard
+
+"jest-matcher-utils@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-matcher-utils@npm:27.0.6"
+  dependencies:
+    chalk: ^4.0.0
+    jest-diff: ^27.0.6
+    jest-get-type: ^27.0.6
+    pretty-format: ^27.0.6
+  checksum: c5299dd3046b1d3a2a20d7ebad3ddd52c2ca5c8e3852b77b51ce57e07f3305626e71118b6ddcb35f75f94c503013706852c1476064df70255752bc5e5caabbca
   languageName: node
   linkType: hard
 
@@ -6419,6 +7063,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-message-util@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-message-util@npm:27.0.6"
+  dependencies:
+    "@babel/code-frame": ^7.12.13
+    "@jest/types": ^27.0.6
+    "@types/stack-utils": ^2.0.0
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.4
+    micromatch: ^4.0.4
+    pretty-format: ^27.0.6
+    slash: ^3.0.0
+    stack-utils: ^2.0.3
+  checksum: 8b929c44ea693b48d8fe92974fb5b37ee25ec5220681472e67cac709e928669b86cc0aeadb5731299add3f3661da8acafeed333df4d5f6baf5cf50e560ae9e72
+  languageName: node
+  linkType: hard
+
 "jest-mock@npm:^27.0.3":
   version: 27.0.3
   resolution: "jest-mock@npm:27.0.3"
@@ -6426,6 +7087,16 @@ __metadata:
     "@jest/types": ^27.0.2
     "@types/node": "*"
   checksum: 59ac90d5fed90384065d306cadb43b96f6f6182fa624b3b60cc2cf2d9a0a48ddabff48f60bc002d4c7a56e9677997b7be93af9836538d5f5da374a4cf937141c
+  languageName: node
+  linkType: hard
+
+"jest-mock@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-mock@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+  checksum: 15bbd62694f1eeaaef651cca1ff31b34540496d8ec99c5c625e6429ffe43a136931a8f8f63247ed38c1038abb3fbbeebd3ad5ebcd7f8daef07c51aae9c4fd672
   languageName: node
   linkType: hard
 
@@ -6445,6 +7116,13 @@ __metadata:
   version: 27.0.1
   resolution: "jest-regex-util@npm:27.0.1"
   checksum: 8240b7ca4a240eb5a28149e11b3a559f39f5067ff27032ed20ded5e50d91334ade58a616ddf7803eda85dd36c8ea39c9aa99430cb7a08f814ef67fa1a89e9f68
+  languageName: node
+  linkType: hard
+
+"jest-regex-util@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-regex-util@npm:27.0.6"
+  checksum: dc11996d50200bfcae1d0594a6134f9fb33e4a4bc38dddcda9d840ffdc99356e8c545e38dc7b04aef98bff670e61ddb7b7571b44eef254dd09c6c5f6f110bea0
   languageName: node
   linkType: hard
 
@@ -6476,6 +7154,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-resolve@npm:27.0.6, jest-resolve@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-resolve@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    chalk: ^4.0.0
+    escalade: ^3.1.1
+    graceful-fs: ^4.2.4
+    jest-pnp-resolver: ^1.2.2
+    jest-util: ^27.0.6
+    jest-validate: ^27.0.6
+    resolve: ^1.20.0
+    slash: ^3.0.0
+  checksum: 1f20485652be1d561e06093f7898f556e043d87c371854ff81cf20ab015c63169608279634da31d1f2b6b9572172f21e0e3b779eb1da470242dfae41081b89e5
+  languageName: node
+  linkType: hard
+
 "jest-runner@npm:^27.0.4":
   version: 27.0.4
   resolution: "jest-runner@npm:27.0.4"
@@ -6503,6 +7198,36 @@ __metadata:
     source-map-support: ^0.5.6
     throat: ^6.0.1
   checksum: 3c87f03766cab12afa9ba40d6ed9121498dab338694b2a7e9661156c3669486c531fa6a7fb7c6776ff6f9b32338e837dd370765e2111aaa424f7cf95618f3a7f
+  languageName: node
+  linkType: hard
+
+"jest-runner@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-runner@npm:27.0.6"
+  dependencies:
+    "@jest/console": ^27.0.6
+    "@jest/environment": ^27.0.6
+    "@jest/test-result": ^27.0.6
+    "@jest/transform": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    chalk: ^4.0.0
+    emittery: ^0.8.1
+    exit: ^0.1.2
+    graceful-fs: ^4.2.4
+    jest-docblock: ^27.0.6
+    jest-environment-jsdom: ^27.0.6
+    jest-environment-node: ^27.0.6
+    jest-haste-map: ^27.0.6
+    jest-leak-detector: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-resolve: ^27.0.6
+    jest-runtime: ^27.0.6
+    jest-util: ^27.0.6
+    jest-worker: ^27.0.6
+    source-map-support: ^0.5.6
+    throat: ^6.0.1
+  checksum: 869fa1f86bb499dd060ea7ecf69a68147ccdc9193e6a27652701767b8f00e50fa79187026c04c4f4f8b1e77cbbfd1f84d75c1dac4216b072afee34084aa96337
   languageName: node
   linkType: hard
 
@@ -6540,6 +7265,40 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-runtime@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-runtime@npm:27.0.6"
+  dependencies:
+    "@jest/console": ^27.0.6
+    "@jest/environment": ^27.0.6
+    "@jest/fake-timers": ^27.0.6
+    "@jest/globals": ^27.0.6
+    "@jest/source-map": ^27.0.6
+    "@jest/test-result": ^27.0.6
+    "@jest/transform": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/yargs": ^16.0.0
+    chalk: ^4.0.0
+    cjs-module-lexer: ^1.0.0
+    collect-v8-coverage: ^1.0.0
+    exit: ^0.1.2
+    glob: ^7.1.3
+    graceful-fs: ^4.2.4
+    jest-haste-map: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-mock: ^27.0.6
+    jest-regex-util: ^27.0.6
+    jest-resolve: ^27.0.6
+    jest-snapshot: ^27.0.6
+    jest-util: ^27.0.6
+    jest-validate: ^27.0.6
+    slash: ^3.0.0
+    strip-bom: ^4.0.0
+    yargs: ^16.0.3
+  checksum: 291f57285ba8900ee5e2b613f2cbcdde35ff8ad1051e054685b1989b574abcf69cbcea26b5436cf588b88b40379b3cdb60f98d84cba299d09c4f763230243484
+  languageName: node
+  linkType: hard
+
 "jest-serializer@npm:^27.0.1":
   version: 27.0.1
   resolution: "jest-serializer@npm:27.0.1"
@@ -6547,6 +7306,16 @@ __metadata:
     "@types/node": "*"
     graceful-fs: ^4.2.4
   checksum: 4f8812fdae263382887ad1fa75547191cb1e8ce4a840e813732eaf0ab8768e8897d92e96af1340c6ad3ebb8cd88ca6ef0a6d3607f1e7be169b592bc438d4a163
+  languageName: node
+  linkType: hard
+
+"jest-serializer@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-serializer@npm:27.0.6"
+  dependencies:
+    "@types/node": "*"
+    graceful-fs: ^4.2.4
+  checksum: 9f5a8e86a3ad986307f9efef401a7d7196269738594e9fd43ff408c019fb581e053e9de8b83010c08b87167ac800e601d6dc63dd7644e64c66b8f02cc8f457d5
   languageName: node
   linkType: hard
 
@@ -6582,6 +7351,38 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-snapshot@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-snapshot@npm:27.0.6"
+  dependencies:
+    "@babel/core": ^7.7.2
+    "@babel/generator": ^7.7.2
+    "@babel/parser": ^7.7.2
+    "@babel/plugin-syntax-typescript": ^7.7.2
+    "@babel/traverse": ^7.7.2
+    "@babel/types": ^7.0.0
+    "@jest/transform": ^27.0.6
+    "@jest/types": ^27.0.6
+    "@types/babel__traverse": ^7.0.4
+    "@types/prettier": ^2.1.5
+    babel-preset-current-node-syntax: ^1.0.0
+    chalk: ^4.0.0
+    expect: ^27.0.6
+    graceful-fs: ^4.2.4
+    jest-diff: ^27.0.6
+    jest-get-type: ^27.0.6
+    jest-haste-map: ^27.0.6
+    jest-matcher-utils: ^27.0.6
+    jest-message-util: ^27.0.6
+    jest-resolve: ^27.0.6
+    jest-util: ^27.0.6
+    natural-compare: ^1.4.0
+    pretty-format: ^27.0.6
+    semver: ^7.3.2
+  checksum: 8a55b9ef9e90991b0a900e59db8134dbeedd4e9a601bff5411628fd1d428191b256dc0b14874f7600e3028f5503146c9c11c7badf302938b47532eb9d222b113
+  languageName: node
+  linkType: hard
+
 "jest-util@npm:^27.0.2":
   version: 27.0.2
   resolution: "jest-util@npm:27.0.2"
@@ -6596,6 +7397,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-util@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-util@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    "@types/node": "*"
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.4
+    is-ci: ^3.0.0
+    picomatch: ^2.2.3
+  checksum: a62ab3304ad58eb5fa130d66680d987890fca8c0505857a1b8bbcc8cf1de35eb3b82e19bdc5084dd10f68b3ce373234723f57f6e83781d4a4f66be1b647b488d
+  languageName: node
+  linkType: hard
+
 "jest-validate@npm:^27.0.2":
   version: 27.0.2
   resolution: "jest-validate@npm:27.0.2"
@@ -6607,6 +7422,20 @@ __metadata:
     leven: ^3.1.0
     pretty-format: ^27.0.2
   checksum: ec4799a88425c59c8baf897e2f4508a8aed37556b78067f838c914546789b8367911efff55193906f83ea555de677580cc9a315aed1e7ab0d66e0cbca6d1e1d6
+  languageName: node
+  linkType: hard
+
+"jest-validate@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-validate@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    camelcase: ^6.2.0
+    chalk: ^4.0.0
+    jest-get-type: ^27.0.6
+    leven: ^3.1.0
+    pretty-format: ^27.0.6
+  checksum: 3d44c72e107bb9ab5e606b839ca640c1481d1395851858adb797be5cd1b9215a73fa2e2fe5123f8bb591073279a80c7fa9c1673351c577b07e6d7985eb7e7600
   languageName: node
   linkType: hard
 
@@ -6661,6 +7490,17 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: bfbfd3d0af94a5505e841719bba4f57823305a3333b3dcecad333eea517c18ee3ba528e8fab017444ad93666ca15b73f1969b71fe0ba9f9abec8843a74b081e7
+  languageName: node
+  linkType: hard
+
+"jest-worker@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "jest-worker@npm:27.0.6"
+  dependencies:
+    "@types/node": "*"
+    merge-stream: ^2.0.0
+    supports-color: ^8.0.0
+  checksum: 8d7ab8cdf6e66fd676b933f142191158be3541bcdc29c4f839e4b9e03ef755dc8741623645758f75ee23acc98038b28f6e9141e49ec7ffef56c51561f7db06f6
   languageName: node
   linkType: hard
 
@@ -7279,7 +8119,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:^3.1.23":
+"nanoid@npm:^3.1.22, nanoid@npm:^3.1.23":
   version: 3.1.23
   resolution: "nanoid@npm:3.1.23"
   bin:
@@ -7504,6 +8344,16 @@ __metadata:
   dependencies:
     mimic-fn: ^2.1.0
   checksum: e425f6caeb20cf2598ffece94be5663932e34d074f1631b682b13d5f01cc1e0712a7dc711eff1706bb5a5aaab8a52e37bd5edcf560334e3222219d7e8b09c21c
+  languageName: node
+  linkType: hard
+
+"open@npm:^7.4.2":
+  version: 7.4.2
+  resolution: "open@npm:7.4.2"
+  dependencies:
+    is-docker: ^2.0.0
+    is-wsl: ^2.1.1
+  checksum: 07545fa768e5fbc25c6f53c6f17465f1b7ee663a494f87608d99a7b3227c83d2d2e0f0e5ecb70325b4ddef97dcd02d206f9afe3f8d6bb3d6612db9ca310ed4eb
   languageName: node
   linkType: hard
 
@@ -7861,6 +8711,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-format@npm:^27.0.6":
+  version: 27.0.6
+  resolution: "pretty-format@npm:27.0.6"
+  dependencies:
+    "@jest/types": ^27.0.6
+    ansi-regex: ^5.0.0
+    ansi-styles: ^5.0.0
+    react-is: ^17.0.1
+  checksum: 29baf8d88a35c04ef81e310e3e239c6fe4f5b0827c9bd8f660df78e94632a9677bd113a64be78cc95c52945a4369b85828f32559cfd86c1b591aa3cc39d0798d
+  languageName: node
+  linkType: hard
+
 "pretty-format@npm:^3.8.0":
   version: 3.8.0
   resolution: "pretty-format@npm:3.8.0"
@@ -7959,11 +8821,11 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
-    "@quilted/cloudflare": ^0.1.3
-    "@quilted/craft": ^0.1.21
-    "@quilted/quilt": ^0.5.19
-    "@quilted/sewing-kit": ^0.2.8
-    typescript: 4.3.x
+    "@quilted/cloudflare": ^0.1.8
+    "@quilted/craft": ^0.1.39
+    "@quilted/quilt": ^0.5.33
+    "@quilted/sewing-kit": ^0.2.11
+    typescript: ^4.3.4
   languageName: unknown
   linkType: soft
 
@@ -8307,6 +9169,22 @@ resolve@^2.0.0-next.3:
   peerDependencies:
     rollup: ^2.0.0
   checksum: 553cc21efcea3e4d46c61fbd41cb4a82a3ab8e02ae4ce7c03f9248dea93e5a91c3624e2271490ee05b2bb481568305733b496d968d3ac9c99b777a588a336f01
+  languageName: node
+  linkType: hard
+
+"rollup-plugin-visualizer@npm:^5.5.0":
+  version: 5.5.1
+  resolution: "rollup-plugin-visualizer@npm:5.5.1"
+  dependencies:
+    nanoid: ^3.1.22
+    open: ^7.4.2
+    source-map: ^0.7.3
+    yargs: ^16.2.0
+  peerDependencies:
+    rollup: ^2.0.0
+  bin:
+    rollup-plugin-visualizer: dist/bin/cli.js
+  checksum: d5f82f4e952440eeaee620ab58c7ff2ff262763441f9a19cc36cdf9811d6a6617e3300a69aba4ee4331ff628b8331dddb5b3fee0a21b30edee6148c9f1cec760
   languageName: node
   linkType: hard
 
@@ -8865,6 +9743,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"tapable@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "tapable@npm:2.2.0"
+  checksum: f8ed725aedb3d777bf908ff06c02d1a2108667d3e64af87dd45354ac8de67e7e4fe1a567e215057fb1a2a5437b31d80cc5e5ddbb8327f7280afd4494967a9a93
+  languageName: node
+  linkType: hard
+
 "tar@npm:^6.0.2, tar@npm:^6.1.0":
   version: 6.1.0
   resolution: "tar@npm:6.1.0"
@@ -9113,7 +9998,7 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-typescript@4.3.x:
+typescript@^4.3.4:
   version: 4.3.4
   resolution: "typescript@npm:4.3.4"
   bin:
@@ -9123,7 +10008,7 @@ typescript@4.3.x:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.3.x#builtin<compat/typescript>":
+"typescript@patch:typescript@^4.3.4#builtin<compat/typescript>":
   version: 4.3.4
   resolution: "typescript@patch:typescript@npm%3A4.3.4#builtin<compat/typescript>::version=4.3.4&hash=ddfc1b"
   bin:
@@ -9555,7 +10440,7 @@ typescript@4.3.x:
   languageName: node
   linkType: hard
 
-"yargs@npm:^16.0.3":
+"yargs@npm:^16.0.3, yargs@npm:^16.2.0":
   version: 16.2.0
   resolution: "yargs@npm:16.2.0"
   dependencies:

@@ -11,13 +11,13 @@
     "build": "sewing-kit build"
   },
   "dependencies": {
-    "@quilted/quilt": "^0.5.19"
+    "@quilted/quilt": "^0.5.33"
   },
   "devDependencies": {
-    "@quilted/cloudflare": "^0.1.3",
-    "@quilted/craft": "^0.1.21",
-    "@quilted/sewing-kit": "^0.2.8",
-    "typescript": "4.3.x"
+    "@quilted/cloudflare": "^0.1.8",
+    "@quilted/craft": "^0.1.39",
+    "@quilted/sewing-kit": "^0.2.11",
+    "typescript": "^4.3.4"
   },
   "prettier": "@quilted/prettier",
   "eslintConfig": {
