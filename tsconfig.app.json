@@ -3,6 +3,5 @@
   "compilerOptions": {
     "outDir": "build/typescript/app"
   },
-  "include": ["app/**/*"],
-  "exclude": ["build", "sewing-kit.config.ts", "*.test.ts", "*.test.tsx"]
+  "include": ["app/**/*"]
 }

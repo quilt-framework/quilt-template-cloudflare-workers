@@ -1999,9 +1999,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.40":
-  version: 0.1.40
-  resolution: "@quilted/craft@npm:0.1.40"
+"@quilted/craft@npm:^0.1.41":
+  version: 0.1.41
+  resolution: "@quilted/craft@npm:0.1.41"
   dependencies:
     "@babel/core": ">=7.0.0 <8.0.0"
     "@prefresh/vite": ^2.2.0
@@ -2011,9 +2011,9 @@ __metadata:
     "@quilted/sewing-kit": ^0.2.11
     "@quilted/sewing-kit-babel": ^0.1.6
     "@quilted/sewing-kit-eslint": ^0.1.4
-    "@quilted/sewing-kit-esnext": ^0.1.15
+    "@quilted/sewing-kit-esnext": ^0.1.16
     "@quilted/sewing-kit-jest": ^0.1.7
-    "@quilted/sewing-kit-package": ^0.1.8
+    "@quilted/sewing-kit-package": ^0.1.9
     "@quilted/sewing-kit-prettier": ^0.1.4
     "@quilted/sewing-kit-react": ^0.1.4
     "@quilted/sewing-kit-rollup": ^0.1.6
@@ -2060,7 +2060,7 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: 81777722eb7a947bd16a09368cf1d27c76642bae05ead44075a52af29bcb9d4640f4ff728bd9e78679604f8f092a9ee611a23350398a3601e07d5cc46a1fb3cd
+  checksum: 48e5e69166768daf161ad99abfcc17dd08d02c65cf9167335cf1fc27e8a826d09cf930427f576494aedccf74498eb6fee184d4bfe5d33096d549be476fd57f6c
   languageName: node
   linkType: hard
 
@@ -2457,6 +2457,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@quilted/rollup-plugin-fix-commonjs-preserve-modules@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "@quilted/rollup-plugin-fix-commonjs-preserve-modules@npm:0.1.0"
+  peerDependencies:
+    rollup: ^2.0.0
+  peerDependenciesMeta:
+    rollup:
+      optional: false
+  checksum: 46906aba151528a8c21a3f1aea8d61f94f3286a54c5e818509d94b97c3cf01ba5690bddd812e705b6afa0a7031f7da06fa5dd4c2d2ebc1cfcce5ee7069ad13fd
+  languageName: node
+  linkType: hard
+
 "@quilted/routing@npm:^0.2.5":
   version: 0.2.5
   resolution: "@quilted/routing@npm:0.2.5"
@@ -2512,10 +2524,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-esnext@npm:^0.1.15":
-  version: 0.1.15
-  resolution: "@quilted/sewing-kit-esnext@npm:0.1.15"
+"@quilted/sewing-kit-esnext@npm:^0.1.16":
+  version: 0.1.16
+  resolution: "@quilted/sewing-kit-esnext@npm:0.1.16"
   dependencies:
+    "@quilted/rollup-plugin-fix-commonjs-preserve-modules": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.6
     "@rollup/plugin-babel": ^5.3.0
     esbuild: ^0.12.0
@@ -2541,7 +2554,7 @@ __metadata:
       optional: true
     "@quilted/sewing-kit-vite":
       optional: true
-  checksum: db81c58e26c421c32c91f0f3b28a8c4f20e60891eb2b409ba2582e70fd415638b68a486e4058154d8317d9fd5661411ef0a36fa6d2230b2704b346651debf5a4
+  checksum: c1b6321a6990a75673f72a7d40a76ead158d323be28aa9e10b7b987959251603e9c504ad49dd2ef6b8fefeb2bb433df320b836fa6b52258b784807fc05798422
   languageName: node
   linkType: hard
 
@@ -2566,11 +2579,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/sewing-kit-package@npm:^0.1.8":
-  version: 0.1.8
-  resolution: "@quilted/sewing-kit-package@npm:0.1.8"
+"@quilted/sewing-kit-package@npm:^0.1.9":
+  version: 0.1.9
+  resolution: "@quilted/sewing-kit-package@npm:0.1.9"
   dependencies:
     "@babel/runtime": ">=7.0.0 <8.0.0"
+    "@quilted/rollup-plugin-fix-commonjs-preserve-modules": ^0.1.0
     "@quilted/sewing-kit-rollup": ^0.1.6
     rollup: ^2.0.0
   peerDependencies:
@@ -2580,7 +2594,7 @@ __metadata:
       optional: true
     "@quilted/sewing-kit":
       optional: true
-  checksum: 33f7f0be24568b1f5e7207535ea05d3f3f52935fbbd400873a0ec2dafa26f14b1248f05e96c29d45704a96f3127d6005689f55b89a649915b265a22ffa10743b
+  checksum: b36f46ac8c04fb1febba9a053957210d2c434366e6b3f6e4a6927deb6669c66175d3fe2c121ad5026de316d427ff17a37f21b99964dfd35fb77a5d768fec058c
   languageName: node
   linkType: hard
 
@@ -7880,7 +7894,7 @@ __metadata:
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
     "@quilted/cloudflare": ^0.1.9
-    "@quilted/craft": ^0.1.40
+    "@quilted/craft": ^0.1.41
     "@quilted/quilt": ^0.5.34
     "@quilted/sewing-kit": ^0.2.11
     typescript: ^4.3.5
