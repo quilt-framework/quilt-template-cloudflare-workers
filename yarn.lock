@@ -1999,9 +1999,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/craft@npm:^0.1.42":
-  version: 0.1.42
-  resolution: "@quilted/craft@npm:0.1.42"
+"@quilted/craft@npm:^0.1.43":
+  version: 0.1.43
+  resolution: "@quilted/craft@npm:0.1.43"
   dependencies:
     "@babel/core": ">=7.0.0 <8.0.0"
     "@prefresh/vite": ^2.2.0
@@ -2060,7 +2060,7 @@ __metadata:
       optional: true
     typescript:
       optional: false
-  checksum: ef862249edfbbc1869b5661782f2e8c2c4ef0676a323cf9aa71ef396a90f54bbc955df7072e6f677be016fb7f601578cff480a55644c4b96312f126f0a2c8267
+  checksum: 8ca1043901d4cf155e31da1b2ab66643fac59a53b3ccb9ec8c45568f910105335dbe7e1a23a02788c788811bb61960debf507381afebc19250a4574c2a019edc
   languageName: node
   linkType: hard
 
@@ -7894,7 +7894,7 @@ __metadata:
   resolution: "quilt-template-cloudflare-workers@workspace:."
   dependencies:
     "@quilted/cloudflare": ^0.1.9
-    "@quilted/craft": ^0.1.42
+    "@quilted/craft": ^0.1.43
     "@quilted/quilt": ^0.5.35
     "@quilted/sewing-kit": ^0.2.11
     typescript: ^4.3.5
